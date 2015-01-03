@@ -1,4 +1,4 @@
 settings
 ========
 
-backup local setttings(.vimrc etc...)
+Backup by local setttings(.vimrc etc...)
