@@ -6,9 +6,17 @@ set incsearch
 set encoding=utf-8
 set fileencodings=utf-8,iso-2022-jp,cp932,sjis,euc-jp
 
+
 "===================================-
 " plugin settings
 "===================================-
+"------------------------------------
+" Ichange.vim
+"------------------------------------
+let g:Ichange#before_indent = 2
+let g:Ichange#after_indent = 4
+map <C-I> <Plug>(change_indent)
+
 
 "------------------------------------
 " unite.vim
@@ -69,4 +77,5 @@ let QFixHowm_DiaryFile = 'diary/%Y/%m/%Y-%m-%d-000000.howm'
 " http://www.vim.org/scripts/script.php?script_id=273
 "------------------------------------
 ":Tlist
+
 
