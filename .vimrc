@@ -1,11 +1,14 @@
+set nocompatible
 set tabstop=4
 set expandtab
 set hlsearch
 set incsearch
+set ambiwidth=double
+highlight Comment ctermfg=darkcyan
 
 set encoding=utf-8
 set fileencodings=utf-8,iso-2022-jp,cp932,sjis,euc-jp
-
+syntax on
 
 "===================================-
 " plugin settings
@@ -16,6 +19,9 @@ set fileencodings=utf-8,iso-2022-jp,cp932,sjis,euc-jp
 let g:Ichange#before_indent = 2
 let g:Ichange#after_indent = 4
 map <C-I> <Plug>(change_indent)
+
+
+"command! -range=% -nargs=* Ghl call grephl#hl(expand("%"))
 
 
 "------------------------------------
@@ -48,6 +54,9 @@ au FileType unite inoremap <silent> <buffer> <ESC><ESC> <ESC>:q<CR>
 "------------------------------------
 "noremap :e :VimFiler -split -simple -winwidth=35 -no-quit
 noremap <C-E> :VimFiler -split -simple -winwidth=35 -no-quit<CR>
+let g:vimfiler_safe_mode_by_default=0
+let g:vimfiler_as_default_explorer=1
+
 
 "------------------------------------
 " yanktmp.vim
@@ -78,4 +87,74 @@ let QFixHowm_DiaryFile = 'diary/%Y/%m/%Y-%m-%d-000000.howm'
 "------------------------------------
 ":Tlist
 
+"------------------------------------
+" Gtags
+"------------------------------------
+map <C-]> :GtagsCursor<CR>
+map <C-l> :Gtags -f %<CR>
+map <C-n> :cn<CR>
+nnoremap <C-t> <C-o><CR>
+map <C-p> :cp<CR>
+nnoremap <C-c> <C-w><C-w><C-w>q<CR>
+map <C-k> :Gtags -r <C-r><C-w><CR>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" NeoBundle
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+if has('vim_starting')
+    set runtimepath+=~/.vim/bundle/neobundle.vim
+    call neobundle#begin(expand('~/.vim/bundle'))
+endif
+
+NeoBundle 'Shougo/vimfiler'
+NeoBundle 'Shougo/neomru.vim'
+NeoBundle 'Shougo/unite.vim'
+NeoBundle has('lua') ? 'Shougo/neocomplete' : 'Shougo/neocomplcache'
+
+NeoBundleLazy 'marcus/rsense', {
+      \ 'autoload': {
+      \   'filetypes': 'ruby',
+      \ },
+      \ }
+
+NeoBundle 'Shougo/vimproc', {
+  \ 'build' : {
+  \     'mac' : 'make -f make_mac.mak',
+  \     'unix' : 'make -f make_unix.mak',
+  \    },
+  \ }
+NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', { 'autoload' : {
+  \ 'insert' : 1,
+  \ 'filetypes': 'ruby',
+  \ }}
+
+NeoBundleCheck
+call neobundle#end()
+
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" rsense
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:rsenseUseOmniFunc = 1
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" neocomplete
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:neocomplete#enable_at_startup = 1
+let g:neocomplete#enable_ignore_case = 1
+let g:neocomplete#enable_smart_case = 1
+if !exists('g:neocomplete#keyword_patterns')
+    let g:neocomplete#keyword_patterns = {}
+endif
+let g:neocomplete#keyword_patterns._ = '\h\w*'
+inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
+if !exists('g:neocomplete#force_omni_input_patterns')
+    let g:neocomplete#force_omni_input_patterns = {}
+endif
+let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
+
+syntax on
 
