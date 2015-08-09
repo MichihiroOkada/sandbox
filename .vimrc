@@ -9,6 +9,7 @@ highlight Comment ctermfg=darkcyan
 set encoding=utf-8
 set fileencodings=utf-8,iso-2022-jp,cp932,sjis,euc-jp
 syntax on
+"vmap // <C-V>0I//<Esc>
 
 "===================================-
 " plugin settings
@@ -16,10 +17,10 @@ syntax on
 "------------------------------------
 " Ichange.vim
 "------------------------------------
-let g:Ichange#before_indent = 2
-let g:Ichange#after_indent = 4
+let g:Ichange#before_indent = 1
+let g:Ichange#after_indent = 2
 map <C-I> <Plug>(change_indent)
-
+vmap <C-I> :Ichange<CR>
 
 "command! -range=% -nargs=* Ghl call grephl#hl(expand("%"))
 
@@ -134,27 +135,27 @@ call neobundle#end()
 
 
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" rsense
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:rsenseUseOmniFunc = 1
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" neocomplete
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:neocomplete#enable_at_startup = 1
-let g:neocomplete#enable_ignore_case = 1
-let g:neocomplete#enable_smart_case = 1
-if !exists('g:neocomplete#keyword_patterns')
-    let g:neocomplete#keyword_patterns = {}
-endif
-let g:neocomplete#keyword_patterns._ = '\h\w*'
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
-if !exists('g:neocomplete#force_omni_input_patterns')
-    let g:neocomplete#force_omni_input_patterns = {}
-endif
-let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" rsense
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"let g:rsenseUseOmniFunc = 1
+"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" neocomplete
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"let g:neocomplete#enable_at_startup = 1
+"let g:neocomplete#enable_ignore_case = 1
+"let g:neocomplete#enable_smart_case = 1
+"if !exists('g:neocomplete#keyword_patterns')
+"    let g:neocomplete#keyword_patterns = {}
+"endif
+"let g:neocomplete#keyword_patterns._ = '\h\w*'
+"inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+"inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
+"if !exists('g:neocomplete#force_omni_input_patterns')
+"    let g:neocomplete#force_omni_input_patterns = {}
+"endif
+"let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
 
 syntax on
 
