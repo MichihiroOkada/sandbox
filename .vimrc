@@ -24,6 +24,13 @@ vmap <C-I> :Ichange<CR>
 
 "command! -range=% -nargs=* Ghl call grephl#hl(expand("%"))
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" vim-monster
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+setlocal omnifunc=monster#omnifunc
+imap <C-O> <C-X><C-O>
+"let g:monster#debug#enable = 1
+let g:monster#completion#rcodetools#show_info = 0
 
 "------------------------------------
 " unite.vim
@@ -158,4 +165,6 @@ call neobundle#end()
 "let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
 
 syntax on
+
+
 
