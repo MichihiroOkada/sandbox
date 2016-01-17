@@ -15,22 +15,20 @@ syntax on
 " plugin settings
 "===================================-
 "------------------------------------
+" MatchPairBrace.vim
+"------------------------------------
+map <C-k> <Plug>(focus_change)
+
+"------------------------------------
 " Ichange.vim
 "------------------------------------
-let g:Ichange#before_indent = 1
+let g:Ichange#before_indent = 2
 let g:Ichange#after_indent = 2
 map <C-I> <Plug>(change_indent)
 vmap <C-I> :Ichange<CR>
 
 "command! -range=% -nargs=* Ghl call grephl#hl(expand("%"))
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" vim-monster
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""
-setlocal omnifunc=monster#omnifunc
-imap <C-O> <C-X><C-O>
-"let g:monster#debug#enable = 1
-let g:monster#completion#rcodetools#show_info = 0
 
 "------------------------------------
 " unite.vim
@@ -104,7 +102,7 @@ map <C-n> :cn<CR>
 nnoremap <C-t> <C-o><CR>
 map <C-p> :cp<CR>
 nnoremap <C-c> <C-w><C-w><C-w>q<CR>
-map <C-k> :Gtags -r <C-r><C-w><CR>
+"map <C-k> :Gtags -r <C-r><C-w><CR>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -118,13 +116,13 @@ endif
 NeoBundle 'Shougo/vimfiler'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'Shougo/unite.vim'
-NeoBundle has('lua') ? 'Shougo/neocomplete' : 'Shougo/neocomplcache'
+"NeoBundle has('lua') ? 'Shougo/neocomplete' : 'Shougo/neocomplcache'
 
-NeoBundleLazy 'marcus/rsense', {
-      \ 'autoload': {
-      \   'filetypes': 'ruby',
-      \ },
-      \ }
+"NeoBundleLazy 'marcus/rsense', {
+"      \ 'autoload': {
+"      \   'filetypes': 'ruby',
+"      \ },
+"      \ }
 
 NeoBundle 'Shougo/vimproc', {
   \ 'build' : {
@@ -132,39 +130,52 @@ NeoBundle 'Shougo/vimproc', {
   \     'unix' : 'make -f make_unix.mak',
   \    },
   \ }
-NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', { 'autoload' : {
-  \ 'insert' : 1,
-  \ 'filetypes': 'ruby',
-  \ }}
+"NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', { 'autoload' : {
+"  \ 'insert' : 1,
+"  \ 'filetypes': 'ruby',
+"  \ }}
 
 NeoBundleCheck
 call neobundle#end()
 
 
+"let g:neocomplete#sources#omni#input_patterns = {
+"\   "ruby" : '[^. *\t]\.\w*\|\h\w*::',
+"\}
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" rsense
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
-"let g:rsenseUseOmniFunc = 1
+let g:rsenseUseOmniFunc = 1
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 "" neocomplete
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
 "let g:neocomplete#enable_at_startup = 1
-"let g:neocomplete#enable_ignore_case = 1
-"let g:neocomplete#enable_smart_case = 1
-"if !exists('g:neocomplete#keyword_patterns')
-"    let g:neocomplete#keyword_patterns = {}
-"endif
-"let g:neocomplete#keyword_patterns._ = '\h\w*'
-"inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-"inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
+""let g:neocomplete#enable_ignore_case = 1
+""let g:neocomplete#enable_smart_case = 1
+""if !exists('g:neocomplete#keyword_patterns')
+""    let g:neocomplete#keyword_patterns = {}
+""endif
+""let g:neocomplete#keyword_patterns._ = '\h\w*'
+""inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
+""inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<S-TAB>"
 "if !exists('g:neocomplete#force_omni_input_patterns')
 "    let g:neocomplete#force_omni_input_patterns = {}
 "endif
-"let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
+""let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
+"let g:neocomplete#force_omni_input_patterns.ruby =
+"         \ '[^. *\t]\.\w*\|\h\w*::'
 
 syntax on
 
+setlocal omnifunc=monster#omnifunc
+imap <C-O> <C-X><C-O>
+"let g:monster#debug#enable = 1
+let g:monster#completion#rcodetools#show_info = 0
 
-
+" set filetype setting
+""echo &filetype
+"au BufRead,BufNewFile *.jslib            set filetype=javascript
+filetype plugin indent on
