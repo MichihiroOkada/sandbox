@@ -179,3 +179,19 @@ let g:monster#completion#rcodetools#show_info = 0
 ""echo &filetype
 "au BufRead,BufNewFile *.jslib            set filetype=javascript
 filetype plugin indent on
+
+
+" plantuml settings
+set shortmess=a
+
+function! ConvertPlantuml(file)
+  silent execute ":!plantuml " . a:file . "\<CR>"
+endfunction
+
+autocmd BufWrite *.{puml} call ConvertPlantuml("%")
+
+noremap <silent> <C-N> :!plantuml %<CR><CR>
+noremap <C-P> :execute ":!cygstart " . expand("%:r") . ".png" <CR><CR>
+
+
+
