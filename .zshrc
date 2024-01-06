@@ -7,6 +7,7 @@ alias la='ls -A'
 alias ll='ls -alF'
 alias ls='ls --color=auto'
 #alias vi='/usr/bin/vim'
+bindkey -e
 
 #export RUBYLIB=/var/lib/gems/1.8/gems/json-1.8.1/lib
 export JLESSCHARSET=japanese
