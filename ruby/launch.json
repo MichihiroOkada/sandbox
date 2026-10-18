@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+  	{
+			"type": "rdbg",
+			"name": "Debug current file with rdbg",
+			"request": "launch",
+			"script": "${file}",
+			"rdbgPath": "C:\\Ruby40-x64\\bin\\rdbg",
+			"args": ["--dir","C:\\Users\\oka\\Documents\\VSCode\\logMerger\\logs", "--merge", "true"],
+			"waitLaunchTime": 15000,
+			"askParameters": false,
+			"showProtocolLog": true,
+			"useTerminal": true
+		}
+  ]
+}
