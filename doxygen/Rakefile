@@ -1,21 +1,76 @@
+# encoding: CP932
 require 'rake'
+require 'fileutils'
 
 path=ENV['PATH']
 path="#{path};C:\\Users\\oka\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
 ENV['PATH'] = path
 p ENV['PATH']
 
+def delete_japanese(output_dir)
+  Dir.chdir("#{output_dir}/latex") do
+    # LaTeXに渡す生成ファイルから日本語文字を除く
+    Dir.glob("**/*.tex").each do |path|
+      text = File.read(path, encoding: "UTF-8")
+      text = text.gsub(
+        /[\u{3000}-\u{30FF}\u{3400}-\u{4DBF}\u{4E00}-\u{9FFF}\u{F900}-\u{FAFF}\u{FF00}-\u{FFEF}]/,
+        ""
+      )
+      File.write(path, text, encoding: "UTF-8")
+    end
+
+    # 前回の日本語を含む目次・補助ファイルを消して作り直す
+    %w[refman.aux refman.toc refman.out].each do |path|
+      File.delete(path) if File.exist?(path)
+    end
+
+    sh "make.bat" do |ok, status|
+      warn "ErrorCode: #{status.exitstatus}" unless ok
+    end
+  end
+end
+
+def delete_hierarchical(output_dir)
+  # doxygen Doxyfile の直後、make.bat の前に実行
+  refman = Pathname("#{output_dir}/latex/refman.tex")
+  tex = refman.read(encoding: "UTF-8")
+
+  pattern = /^[ \t]*\\(?:chapter|doxysection)\{Hierarchical Index\}\r?\n\\input\{hierarchy\}\r?\n/
+  tex.sub!(pattern, "")
+  refman.write(tex, encoding: "UTF-8")
+end
+
 task 'generate' do
-  sh 'rm -rf docs'
+  docname = "API仕様書_BBB.pdf"
+  output_dir = "docs"
+  sh "rm -rf #{output_dir}"
   sh 'doxygen Doxyfile'
-  sh 'cp confidential.png docs/latex'
-  sh 'cp logo.png docs/latex'
-  sh 'docs/latex/make.bat'
+  delete_japanese(output_dir) 
+  delete_hierarchical(output_dir) 
+  #add_section_to_function_def(output_dir) 
+  sh "cp confidential.png #{output_dir}/latex"
+  sh "cp logo.png #{output_dir}/latex"
+  sh "#{output_dir}/latex/make.bat"
+  FileUtils.cp("#{output_dir}/latex/refman.pdf", docname)
+end
 
-
+def add_section_to_function_def(output_dir)
+  # --- 追加：生成された class_*.tex 内の関数宣言文を背景色ボックスで包む置換処理 ---
+  Dir.glob("#{output_dir}/latex/class_*.tex").each do |file|
+    text = File.read(file, encoding: 'UTF-8')
+    # {\footnotesize\ttfamily ... } のパターンを tcolorbox で囲むように置換
+    text.gsub!(/\{\\footnotesize\\ttfamily (.*?)\}/m) do |match|
+      "\\begin{DoxyCompactItemize}{\\footnotesize\\ttfamily #{$1}}\\end{DoxyCompactItemize}"
+    end
+    File.write(file, text, encoding: 'UTF-8')
+  end
 end
 
 task 'generate_header' do
   sh 'doxygen.exe -w latex custom_header.tex custom_footer.tex custom_doxygen.sty Doxyfile'
+end
 
+task 'update_tex' do
+  #delete_hierarchical
+  add_section_to_function_def("docs") 
 end

@@ -1,0 +1,20 @@
+\RequirePackage[most]{tcolorbox}
+
+\let\DoxyOriginalCompactItemize\DoxyCompactItemize
+\let\endDoxyOriginalCompactItemize\endDoxyCompactItemize
+
+\renewenvironment{DoxyCompactItemize}
+  {\begin{tcolorbox}[
+     breakable,
+     colback=blue!5,
+     colframe=blue!30,
+     boxrule=0.4pt,
+     arc=1mm,
+     left=2mm,
+     right=2mm,
+     top=1mm,
+     bottom=1mm
+   ]
+   \begin{DoxyOriginalCompactItemize}}
+  {\end{DoxyOriginalCompactItemize}
+   \end{tcolorbox}}

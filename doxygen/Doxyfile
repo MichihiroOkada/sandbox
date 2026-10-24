@@ -1,14 +1,15 @@
 # Doxygen configuration for API and implementation documentation.
 # Run from the project root with: doxygen Doxyfile
 
-PROJECT_NAME           = "Doxygen test"
+PROJECT_NAME           = "AAA function API specification"
 OUTPUT_DIRECTORY       = docs
 
 # Scan the project tree. Adjust INPUT if the source code lives elsewhere.
+INPUT                  = dialog_test
 #INPUT                  = wxWidgets
-INPUT                  = tinyxml2
-RECURSIVE              = YES
-FILE_PATTERNS          = *.h *.c *.cpp
+#INPUT                   = tinyxml2
+RECURSIVE               = YES
+FILE_PATTERNS           = *.h *.c *.cpp
 EXCLUDE                 = docs build .git .venv node_modules
 EXCLUDE_PATTERNS        = */build/* */.git/* */.venv/* */node_modules/*
 
@@ -57,3 +58,11 @@ LATEX_OUTPUT            = latex
 USE_PDFLATEX            = YES
 PDF_HYPERLINKS          = YES
 LATEX_HEADER            = custom_header.tex
+LAYOUT_FILE             = DoxygenLayout.xml
+DISABLE_INDEX           = YES
+LATEX_HIDE_INDEXES      = YES
+LATEX_BATCHMODE         = NON_STOP
+CLASS_DIAGRAMS          = NO
+CLASS_GRAPH             = NO
+SHOW_FILES              = NO
+LATEX_EXTRA_STYLESHEET  = prototype.sty
