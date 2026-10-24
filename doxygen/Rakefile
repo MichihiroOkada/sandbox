@@ -8,7 +8,14 @@ p ENV['PATH']
 task 'generate' do
   sh 'rm -rf docs'
   sh 'doxygen Doxyfile'
+  sh 'cp confidential.png docs/latex'
+  sh 'cp logo.png docs/latex'
   sh 'docs/latex/make.bat'
 
+
+end
+
+task 'generate_header' do
+  sh 'doxygen.exe -w latex custom_header.tex custom_footer.tex custom_doxygen.sty Doxyfile'
 
 end

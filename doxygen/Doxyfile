@@ -24,12 +24,7 @@ HIDE_UNDOC_MEMBERS      = NO
 HIDE_UNDOC_CLASSES      = NO
 
 # Generate API reference and source views; do not generate call/class diagrams.
-GENERATE_HTML           = YES
-HTML_OUTPUT             = html
-GENERATE_LATEX          = YES
-LATEX_OUTPUT            = latex
-USE_PDFLATEX            = YES
-PDF_HYPERLINKS          = YES
+
 SOURCE_BROWSER          = YES
 INLINE_SOURCES          = NO
 VERBATIM_HEADERS        = YES
@@ -52,3 +47,13 @@ SHOW_NAMESPACES         = YES
 WARN_IF_UNDOCUMENTED    = NO
 WARN_NO_PARAMDOC        = NO
 QUIET                   = NO
+
+
+################
+GENERATE_HTML           = YES
+HTML_OUTPUT             = html
+GENERATE_LATEX          = YES
+LATEX_OUTPUT            = latex
+USE_PDFLATEX            = YES
+PDF_HYPERLINKS          = YES
+LATEX_HEADER            = custom_header.tex
