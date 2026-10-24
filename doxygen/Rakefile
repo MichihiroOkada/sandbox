@@ -1,0 +1,14 @@
+require 'rake'
+
+path=ENV['PATH']
+path="#{path};C:\\Users\\oka\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+ENV['PATH'] = path
+p ENV['PATH']
+
+task 'generate' do
+  sh 'rm -rf docs'
+  sh 'doxygen Doxyfile'
+  sh 'docs/latex/make.bat'
+
+
+end

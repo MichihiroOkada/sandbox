@@ -1,0 +1,54 @@
+# Doxygen configuration for API and implementation documentation.
+# Run from the project root with: doxygen Doxyfile
+
+PROJECT_NAME           = "Doxygen test"
+OUTPUT_DIRECTORY       = docs
+
+# Scan the project tree. Adjust INPUT if the source code lives elsewhere.
+#INPUT                  = wxWidgets
+INPUT                  = tinyxml2
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.c *.cpp
+EXCLUDE                 = docs build .git .venv node_modules
+EXCLUDE_PATTERNS        = */build/* */.git/* */.venv/* */node_modules/*
+
+# Include undocumented symbols and non-public APIs so un-commented functions
+# still appear in the generated listings.
+EXTRACT_ALL             = YES
+EXTRACT_PRIVATE         = YES
+EXTRACT_PACKAGE         = YES
+EXTRACT_STATIC          = YES
+EXTRACT_LOCAL_CLASSES   = YES
+EXTRACT_LOCAL_METHODS   = YES
+HIDE_UNDOC_MEMBERS      = NO
+HIDE_UNDOC_CLASSES      = NO
+
+# Generate API reference and source views; do not generate call/class diagrams.
+GENERATE_HTML           = YES
+HTML_OUTPUT             = html
+GENERATE_LATEX          = YES
+LATEX_OUTPUT            = latex
+USE_PDFLATEX            = YES
+PDF_HYPERLINKS          = YES
+SOURCE_BROWSER          = YES
+INLINE_SOURCES          = NO
+VERBATIM_HEADERS        = YES
+
+HAVE_DOT                = NO
+#CLASS_DIAGRAMS          = NO
+CALL_GRAPH              = NO
+CALLER_GRAPH            = NO
+UML_LOOK                = NO
+INCLUDE_GRAPH           = NO
+INCLUDED_BY_GRAPH       = NO
+GRAPHICAL_HIERARCHY     = NO
+DIRECTORY_GRAPH         = NO
+
+# Keep the generated API pages focused on program symbols and their docs.
+FULL_PATH_NAMES         = NO
+SORT_MEMBER_DOCS        = YES
+SHOW_FILES              = YES
+SHOW_NAMESPACES         = YES
+WARN_IF_UNDOCUMENTED    = NO
+WARN_NO_PARAMDOC        = NO
+QUIET                   = NO
