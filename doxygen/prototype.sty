@@ -1,5 +1,10 @@
 \RequirePackage[most]{tcolorbox}
 
+\tcbset{
+  fonttitle=\bfseries,
+  fontupper=\normalsize
+}
+
 \let\DoxyOriginalCompactItemize\DoxyCompactItemize
 \let\endDoxyOriginalCompactItemize\endDoxyCompactItemize
 
@@ -18,3 +23,25 @@
    \begin{DoxyOriginalCompactItemize}}
   {\end{DoxyOriginalCompactItemize}
    \end{tcolorbox}}
+
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+
+\newenvironment{DoxyPrototypeBox}
+  {\begin{tcolorbox}[
+    enhanced,
+    colback=yellow!8,
+    colframe=yellow!30,
+    boxrule=0pt,
+    arc=0pt,
+    left=2mm,
+    right=2mm,
+    top=2mm,
+    bottom=2mm,
+    boxsep=0pt,
+    before skip=10pt,
+    after skip=10pt,
+    drop shadow,
+    fontupper=\Large\rmfamily\bfseries\itshape
+  ]}
+  {\end{tcolorbox}}

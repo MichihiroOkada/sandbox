@@ -47,21 +47,72 @@ task 'generate' do
   sh 'doxygen Doxyfile'
   delete_japanese(output_dir) 
   delete_hierarchical(output_dir) 
-  #add_section_to_function_def(output_dir) 
+  add_section_to_function_def(output_dir) 
   sh "cp confidential.png #{output_dir}/latex"
   sh "cp logo.png #{output_dir}/latex"
   sh "#{output_dir}/latex/make.bat"
   FileUtils.cp("#{output_dir}/latex/refman.pdf", docname)
 end
 
+def wrap_prototype_blocks(text)
+  marker = "{\\footnotesize\\ttfamily"
+  result = +""
+  position = 0
+
+  while (start = text.index(marker, position))
+    # 開始位置より前をそのまま追加
+    result << text[position...start]
+
+    # すでにボックス内なら二重に囲まない
+    if result.rstrip.end_with?("\\begin{DoxyPrototypeBox}")
+      result << marker
+      position = start + marker.length
+      next
+    end
+
+    result << "\\begin{DoxyPrototypeBox}\n"
+
+    # marker 内の先頭の { を含めて、対応する } を探す
+    depth = 0
+    cursor = start
+
+    while cursor < text.length
+      char = text[cursor]
+
+      depth += 1 if char == "{"
+      depth -= 1 if char == "}"
+
+      cursor += 1
+      break if depth.zero?
+    end
+
+    # 対応する } が見つからなければ、壊さず残す
+    if depth != 0
+      result << text[start..]
+      return result
+    end
+
+    result << text[start...cursor]
+    result << "\n\\end{DoxyPrototypeBox}"
+    position = cursor
+  end
+
+  result << text[position..] if position < text.length
+  result
+end
+
+#{\footnotesize\ttfamily \label{class_cdialogtest_app_a1468045851f89f8b9b9a846c9a48bd65} 
+#BOOL Cdialogtest\+App::\+\+Init\+Instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+# を下記に変える
+#\begin{DoxyPrototypeBox}
+#{\footnotesize\ttfamily \label{class_cdialogtest_app_a1468045851f89f8b9b9a846c9a48bd65}
+#BOOL Cdialogtest\+App::\+\+Init\+Instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+#\end{DoxyPrototypeBox}
 def add_section_to_function_def(output_dir)
   # --- 追加：生成された class_*.tex 内の関数宣言文を背景色ボックスで包む置換処理 ---
   Dir.glob("#{output_dir}/latex/class_*.tex").each do |file|
     text = File.read(file, encoding: 'UTF-8')
-    # {\footnotesize\ttfamily ... } のパターンを tcolorbox で囲むように置換
-    text.gsub!(/\{\\footnotesize\\ttfamily (.*?)\}/m) do |match|
-      "\\begin{DoxyCompactItemize}{\\footnotesize\\ttfamily #{$1}}\\end{DoxyCompactItemize}"
-    end
+    text = wrap_prototype_blocks(text)
     File.write(file, text, encoding: 'UTF-8')
   end
 end
@@ -74,3 +125,49 @@ task 'update_tex' do
   #delete_hierarchical
   add_section_to_function_def("docs") 
 end
+
+
+
+#def wrap_prototype_blocks(text)
+#  marker = "{\\footnotesize\\ttfamily"
+#  result = +""
+#  position = 0
+#
+#  while (start = text.index(marker, position))
+#    result << text[position...start]
+#
+#    depth = 0
+#    cursor = start
+#
+#    while cursor < text.length
+#      char = text[cursor]
+#      depth += 1 if char == "{"
+#      depth -= 1 if char == "}"
+#
+#      cursor += 1
+#      break if depth.zero?
+#    end
+#
+#    # 対応する } が見つからなければ、残りを変更せず終了
+#    if depth != 0
+#      result << text[start..]
+#      return result
+#    end
+#
+#    block = text[start...cursor]
+#
+#    # すでに囲まれているブロックは二重に囲まない
+#    if result.rstrip.end_with?("\\begin{DoxyPrototypeBox}")
+#      result << block
+#    else
+#      result << "\\begin{DoxyPrototypeBox}\n"
+#      result << block
+#      result << "\n\\end{DoxyPrototypeBox}"
+#    end
+#
+#    position = cursor
+#  end
+#
+#  result << text[position..] if position < text.length
+#  result
+#end
