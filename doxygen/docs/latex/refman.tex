@@ -14,7 +14,7 @@
     \pdfminorversion=7
   \fi
   % Set document class depending on configuration
-  \documentclass[twoside]{book}
+  \documentclass[twoside,openany]{book}
   % Packages required by doxygen
   \makeatletter
   \providecommand\IfFormatAtLeastTF{\@ifl@t@r\fmtversion}
@@ -194,7 +194,6 @@
   % Custom commands used by the header
   % Custom commands
   \newcommand{\clearemptydoublepage}{%
-    \newpage{\pagestyle{empty}\cleardoublepage}%
   }
   % caption style definition
   \usepackage{caption}
@@ -225,7 +224,7 @@
   \begin{titlepage}
   \vspace*{7cm}
   \begin{center}%
-  {\Large AAA function API specification}\\
+  {\fontsize{28pt}{34pt}\selectfont AAA function API specification}\\
   \vspace*{1cm}
   {\large Sample test brief}\\
   \end{center}

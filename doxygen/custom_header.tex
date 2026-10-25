@@ -21,7 +21,7 @@
   \documentclass[twoside]{article}
 %%END COMPACT_LATEX
 %%BEGIN !COMPACT_LATEX
-  \documentclass[twoside]{book}
+  \documentclass[twoside,openany]{book}
 %%END !COMPACT_LATEX
 
   % Packages required by doxygen
@@ -223,7 +223,6 @@
   % Custom commands used by the header
   % Custom commands
   \newcommand{\clearemptydoublepage}{%
-    \newpage{\pagestyle{empty}\cleardoublepage}%
   }
 
   % caption style definition
@@ -267,7 +266,7 @@
   \begin{titlepage}
   \vspace*{7cm}
   \begin{center}%
-  {\Large $title}\\
+  {\fontsize{28pt}{34pt}\selectfont $title}\\
 %%BEGIN PROJECT_NUMBER
   [1ex]\large $projectnumber \\
 %%END PROJECT_NUMBER

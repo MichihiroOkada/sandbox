@@ -11,8 +11,8 @@ INPUT                  = dialog_test
 #INPUT                   = tinyxml2
 RECURSIVE               = YES
 FILE_PATTERNS           = *.h *.c *.cpp
-EXCLUDE                 = docs build .git .venv node_modules
-EXCLUDE_PATTERNS        = */build/* */.git/* */.venv/* */node_modules/*
+EXCLUDE                 = docs build .git .venv node_modules x64 def
+EXCLUDE_PATTERNS        = */build/* */.git/* */.venv/* */node_modules/* *.def *Test.cpp *Stub.cpp
 
 # Include undocumented symbols and non-public APIs so un-commented functions
 # still appear in the generated listings.
@@ -32,7 +32,6 @@ INLINE_SOURCES          = NO
 VERBATIM_HEADERS        = YES
 
 HAVE_DOT                = NO
-#CLASS_DIAGRAMS          = NO
 CALL_GRAPH              = NO
 CALLER_GRAPH            = NO
 UML_LOOK                = NO
@@ -44,7 +43,6 @@ DIRECTORY_GRAPH         = NO
 # Keep the generated API pages focused on program symbols and their docs.
 FULL_PATH_NAMES         = NO
 SORT_MEMBER_DOCS        = YES
-SHOW_FILES              = YES
 SHOW_NAMESPACES         = YES
 WARN_IF_UNDOCUMENTED    = NO
 WARN_NO_PARAMDOC        = NO

@@ -17,7 +17,7 @@ var NAVTREEINDEX0 =
 "class_c_dialog_error.html#ac51b2ff1739a1cf76b4ba8c3bea53ce0":[0,0,1,0],
 "class_c_dialog_error.html#ae59d6d84a93c3891bcd915eae9483749":[0,0,1,10],
 "class_cdialogtest_app.html":[0,0,2],
-"class_cdialogtest_app.html#a1468045851f89f8b9b9a846c9a48bd65":[0,0,2,1],
+"class_cdialogtest_app.html#a2db262e8ef9f8cd61acb596fa1d5c7b0":[0,0,2,1],
 "class_cdialogtest_app.html#a35e2abcf2fef940b31a4c7152536ac02":[0,0,2,0],
 "class_cdialogtest_dlg.html":[0,0,3],
 "class_cdialogtest_dlg.html#a0d2ff1b90fffd25e6c9d245fabec5723":[0,0,3,3],

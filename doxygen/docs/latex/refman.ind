@@ -26,21 +26,21 @@
   \item {CdialogtestApp}, \hyperpage{10}
     \subitem {CdialogtestApp}, \hyperpage{10}
     \subitem {InitInstance}, \hyperpage{10}
-  \item {CdialogtestDlg}, \hyperpage{11}
+  \item {CdialogtestDlg}, \hyperpage{10}
     \subitem {CdialogtestDlg}, \hyperpage{11}
-    \subitem {DoDataExchange}, \hyperpage{12}
+    \subitem {DoDataExchange}, \hyperpage{11}
     \subitem {m\_dialogError}, \hyperpage{13}
     \subitem {m\_hIcon}, \hyperpage{13}
     \subitem {OnBnClickedButton1}, \hyperpage{12}
     \subitem {OnInitDialog}, \hyperpage{12}
     \subitem {OnPaint}, \hyperpage{12}
-    \subitem {OnQueryDragIcon}, \hyperpage{13}
-    \subitem {OnSysCommand}, \hyperpage{13}
-  \item {Controller}, \hyperpage{14}
+    \subitem {OnQueryDragIcon}, \hyperpage{12}
+    \subitem {OnSysCommand}, \hyperpage{12}
+  \item {Controller}, \hyperpage{13}
     \subitem {\texorpdfstring{$\sim$}{\string~}Controller}, 
 		\hyperpage{14}
     \subitem {Controller}, \hyperpage{14}
-    \subitem {m\_dialogError}, \hyperpage{15}
+    \subitem {m\_dialogError}, \hyperpage{14}
     \subitem {run}, \hyperpage{14}
 
   \indexspace
@@ -49,7 +49,7 @@
   \item {DoDataExchange}
     \subitem {CAboutDlg}, \hyperpage{7}
     \subitem {CDialogError}, \hyperpage{9}
-    \subitem {CdialogtestDlg}, \hyperpage{12}
+    \subitem {CdialogtestDlg}, \hyperpage{11}
 
   \indexspace
 
@@ -60,7 +60,7 @@
 
   \item {m\_dialogError}
     \subitem {CdialogtestDlg}, \hyperpage{13}
-    \subitem {Controller}, \hyperpage{15}
+    \subitem {Controller}, \hyperpage{14}
   \item {m\_font}
     \subitem {CDialogError}, \hyperpage{9}
   \item {m\_gdiplusToken}
@@ -86,9 +86,9 @@
     \subitem {CDialogError}, \hyperpage{9}
     \subitem {CdialogtestDlg}, \hyperpage{12}
   \item {OnQueryDragIcon}
-    \subitem {CdialogtestDlg}, \hyperpage{13}
+    \subitem {CdialogtestDlg}, \hyperpage{12}
   \item {OnSysCommand}
-    \subitem {CdialogtestDlg}, \hyperpage{13}
+    \subitem {CdialogtestDlg}, \hyperpage{12}
 
   \indexspace
 
