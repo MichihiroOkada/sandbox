@@ -2,6 +2,7 @@
 # Run from the project root with: doxygen Doxyfile
 
 PROJECT_NAME           = "AAA function API specification"
+PROJECT_BRIEF          = "Sample test brief"
 OUTPUT_DIRECTORY       = docs
 
 # Scan the project tree. Adjust INPUT if the source code lives elsewhere.

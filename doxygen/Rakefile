@@ -47,6 +47,7 @@ task 'generate' do
   FileUtils.mkdir_p("#{output_dir}/latex")
   sh "cp confidential.png #{output_dir}/latex"
   sh "cp logo.png #{output_dir}/latex"
+
   sh 'doxygen Doxyfile'
   delete_japanese(output_dir) 
   delete_hierarchical(output_dir) 

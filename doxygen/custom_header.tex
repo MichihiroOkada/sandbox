@@ -77,12 +77,12 @@
   $latexfont
 
   \doxyallsectionsfont{%
-    \fontseries{bc}\selectfont%
-    \color{darkgray}%
+    \sffamily\bfseries
+    \color{ApiNavy}%
   }
   \renewcommand{\DoxyLabelFont}{%
-    \fontseries{bc}\selectfont%
-    \color{darkgray}%
+    \sffamily\bfseries
+    \color{ApiNavy}%
   }
   \newcommand{\+}{\discretionary{\mbox{\scriptsize$\hookleftarrow$}}{}{}}
 
@@ -134,6 +134,7 @@
 
   % Headers & footers
   \usepackage{fancyhdr}
+  \setlength{\headheight}{27pt}
   \pagestyle{fancyplain}
   \renewcommand{\footrulewidth}{0.4pt}
 
@@ -175,6 +176,11 @@
   \usepackage[titles]{tocloft}
   \setcounter{tocdepth}{3}
   \setcounter{secnumdepth}{5}
+
+  \renewcommand{\cftchapfont}{\bfseries\color{ApiNavy}}
+  \renewcommand{\cftsecfont}{\color{ApiNavy}}
+  \renewcommand{\cftchappagefont}{\bfseries}
+  \renewcommand{\cftdotsep}{1}
 
   % creating indexes
   $makeindex
@@ -266,7 +272,7 @@
   [1ex]\large $projectnumber \\
 %%END PROJECT_NUMBER
   \vspace*{1cm}
-  {\large Test oka document}\\
+  {\large $projectbrief}\\
 %%BEGIN TIMESTAMP
     \vspace*{0.5cm}
     {\small $datetime}
