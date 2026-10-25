@@ -12,8 +12,8 @@
   {\begin{tcolorbox}[
      enhanced,
      breakable,
-     colback=blue!5,
-     colframe=blue!30,
+     colback=gray!5,
+     colframe=gray!60,
      boxrule=0.4pt,
      arc=1mm,
      left=2mm,
@@ -33,10 +33,11 @@
 \newenvironment{DoxyPrototypeBox}
   {\begin{tcolorbox}[
     enhanced,
-    colback=yellow!8,
-    colframe=yellow!30,
-    boxrule=0pt,
-    arc=0pt,
+    colback=black!60,
+    colframe=black!100,
+    coltext=white,
+    boxrule=0.4pt,
+    arc=1pt,
     left=2mm,
     right=2mm,
     top=2mm,
@@ -45,6 +46,45 @@
     before skip=10pt,
     after skip=10pt,
     drop shadow,
-    fontupper=\large\rmfamily\bfseries
+    fontupper=\large\ttfamily\bfseries
+  ]
+  \hypersetup{linkcolor=cyan}}
+  {\end{tcolorbox}}
+
+\renewenvironment{DoxyNote}
+  {\begin{tcolorbox}[
+    enhanced,
+    colback=yellow!40,
+    colframe=yellow!80,
+    boxrule=0.4pt,
+    arc=1pt,
+    left=2mm,
+    right=2mm,
+    top=2mm,
+    bottom=2mm,
+    boxsep=0pt,
+    before skip=10pt,
+    after skip=10pt,
+    drop shadow,
+    fontupper=\normalsize\sffamily
+  ]}
+  {\end{tcolorbox}}
+
+\renewenvironment{DoxyWarning}
+  {\begin{tcolorbox}[
+    enhanced,
+    colback=red!30,
+    colframe=red!70,
+    boxrule=0.4pt,
+    arc=1pt,
+    left=2mm,
+    right=2mm,
+    top=2mm,
+    bottom=2mm,
+    boxsep=0pt,
+    before skip=10pt,
+    after skip=10pt,
+    drop shadow,
+    fontupper=\normalsize\sffamily
   ]}
   {\end{tcolorbox}}

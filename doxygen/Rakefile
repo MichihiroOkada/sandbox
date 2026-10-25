@@ -44,6 +44,9 @@ task 'generate' do
   docname = "API仕様書_BBB.pdf"
   output_dir = "docs"
   sh "rm -rf #{output_dir}"
+  FileUtils.mkdir_p("#{output_dir}/latex")
+  sh "cp confidential.png #{output_dir}/latex"
+  sh "cp logo.png #{output_dir}/latex"
   sh 'doxygen Doxyfile'
   delete_japanese(output_dir) 
   delete_hierarchical(output_dir) 
@@ -55,7 +58,8 @@ task 'generate' do
 end
 
 def wrap_prototype_blocks(text)
-  marker = "{\\footnotesize\\ttfamily"
+  #marker = "{\\footnotesize\\ttfamily"
+  marker = "{\\footnotesize\\ttfamily \\label{"
   result = +""
   position = 0
 
@@ -112,7 +116,7 @@ end
 #\end{DoxyPrototypeBox}
 def add_section_to_function_def(output_dir)
   # --- 追加：生成された class_*.tex 内の関数宣言文を背景色ボックスで包む置換処理 ---
-  Dir.glob("#{output_dir}/latex/class_*.tex").each do |file|
+  Dir.glob("#{output_dir}/latex/class*.tex").each do |file|
     text = File.read(file, encoding: 'UTF-8')
     text = wrap_prototype_blocks(text)
     File.write(file, text, encoding: 'UTF-8')
