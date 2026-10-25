@@ -1,0 +1,113 @@
+\RequirePackage[most]{tcolorbox}
+
+\tcbset{
+  fonttitle=\bfseries,
+  fontupper=\normalsize
+}
+
+\let\DoxyOriginalCompactItemize\DoxyCompactItemize
+\let\endDoxyOriginalCompactItemize\endDoxyCompactItemize
+
+\definecolor{ApiNavy}{HTML}{23395B}
+\definecolor{ListAccent}{HTML}{CC0000}
+\definecolor{ListCodeBg}{HTML}{F3F6FA}
+
+\renewenvironment{DoxyCompactItemize}
+  {\begin{tcolorbox}[
+      enhanced,
+      breakable,
+      colback=ListCodeBg,
+      colframe=ListCodeBg,
+      boxrule=0pt,
+      borderline west={2pt}{0pt}{ListAccent},
+      arc=1mm,
+      left=3mm,
+      right=2mm,
+      top=1.5mm,
+      bottom=1.5mm,
+      boxsep=0pt,
+      before skip=6pt,
+      after skip=6pt,
+      fontupper=\normalsize\ttfamily
+   ]
+   \begin{DoxyOriginalCompactItemize}}
+  {\end{DoxyOriginalCompactItemize}
+   \end{tcolorbox}}
+
+\usepackage{xcolor}
+\usepackage[most]{tcolorbox}
+
+\definecolor{ApiAccent}{HTML}{e9b226}
+\definecolor{ApiCodeBg}{HTML}{777777}
+
+\newenvironment{DoxyPrototypeBox}
+  {\begin{tcolorbox}[
+    enhanced,
+    breakable,
+    colback=ApiCodeBg,
+    colframe=ApiCodeBg,
+    coltext=white,
+    boxrule=0pt,
+    borderline west={2pt}{0pt}{ApiAccent},
+    arc=1mm,
+    left=3mm,
+    right=2mm,
+    top=1.5mm,
+    bottom=1.5mm,
+    boxsep=0pt,
+    before skip=6pt,
+    after skip=6pt,
+    fontupper=\normalsize\ttfamily
+  ]}
+  {\end{tcolorbox}}
+
+\definecolor{ApiNoteBg}{HTML}{EDF6F6}
+\definecolor{ApiNoteFrame}{HTML}{168C91}
+\definecolor{ApiWarningBg}{HTML}{FFF1EC}
+\definecolor{ApiWarningFrame}{HTML}{C94C32}
+
+\renewenvironment{DoxyNote}[1]
+  {\begin{tcolorbox}[
+    enhanced,
+    breakable,
+    colback=ApiNoteBg,
+    colframe=ApiNoteFrame,
+    boxrule=0.5pt,
+    title={#1},
+    fonttitle=\bfseries,
+    fontupper=\normalsize\sffamily,
+    left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+    before skip=8pt, after skip=8pt
+  ]}
+  {\end{tcolorbox}}
+
+\renewenvironment{DoxyWarning}[1]
+  {\begin{tcolorbox}[
+    enhanced,
+    breakable,
+    colback=ApiWarningBg,
+    colframe=ApiWarningFrame,
+    boxrule=0.5pt,
+    title={#1},
+    fonttitle=\bfseries,
+    fontupper=\normalsize\sffamily,
+    left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+    before skip=8pt, after skip=8pt
+  ]}
+  {\end{tcolorbox}}
+
+
+\definecolor{ApiTableHeader}{HTML}{08107B}
+\definecolor{ApiTableAlt}{HTML}{E0E0E0}
+
+\SetTblrInner[longtblr]{
+  row{odd}  = {bg=ApiTableAlt},
+  row{even} = {bg=white},
+  rowsep    = 4pt,
+  row{1}    = {bg=ApiTableHeader, fg=white, font=\sffamily\bfseries, abovesep=1.5pt, belowsep=1.5pt},
+  cells     = {font=\small},
+  colsep    = 7pt
+}
+\RenewDocumentCommand{\tf}{m}{%
+  \bfseries #1%
+}

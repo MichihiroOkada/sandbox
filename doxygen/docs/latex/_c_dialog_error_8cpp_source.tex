@@ -1,0 +1,266 @@
+\doxysection{CDialog\+Error.\+cpp}
+\hypertarget{_c_dialog_error_8cpp_source}{}\label{_c_dialog_error_8cpp_source}\index{CDialogError.cpp@{CDialogError.cpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00001}00001\ \textcolor{comment}{//\ CDialogError.cpp\ :\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00002}00002\ \textcolor{comment}{//}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ "{}pch.h"{}}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}dialog\_test.h"{}}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}afxdialogex.h"{}}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ "{}CDialogError.h"{}}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ "{}resource.h"{}}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ "{}Controller.h"{}}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00010}00010\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00011}00011\ \textcolor{preprocessor}{\#include\ <gdiplus.h>}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00012}00012\ \textcolor{preprocessor}{\#pragma\ comment(lib,\ "{}gdiplus.lib"{})}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00014}00014\ \textcolor{keyword}{using\ namespace\ }Gdiplus;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00016}00016\ \textcolor{comment}{//\ CDialogError\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00017}00017\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00018}00018\ IMPLEMENT\_DYNAMIC(\doxymbox{\hyperlink{class_c_dialog_error}{CDialogError}},\ CDialogEx)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00019}00019\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00020}\doxymbox{\hyperlink{class_c_dialog_error_ac51b2ff1739a1cf76b4ba8c3bea53ce0}{00020}}\ \doxymbox{\hyperlink{class_c_dialog_error_ac51b2ff1739a1cf76b4ba8c3bea53ce0}{CDialogError}}::\doxymbox{\hyperlink{class_c_dialog_error_ac51b2ff1739a1cf76b4ba8c3bea53ce0}{CDialogError}}(CWnd*\ pParent\ \textcolor{comment}{/*=nullptr*/})}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00021}00021\ \ \ \ \ :\ CDialogEx(IDD\_DIALOG\_TEST\_ERROR,\ pParent)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00022}00022\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00024}00024\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00026}\doxymbox{\hyperlink{class_c_dialog_error_aba1c7612f5b8d4f8d75c0c268df71c28}{00026}}\ \doxymbox{\hyperlink{class_c_dialog_error_aba1c7612f5b8d4f8d75c0c268df71c28}{CDialogError::\string~CDialogError}}()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00027}00027\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00028}00028\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00029}00029\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00030}\doxymbox{\hyperlink{class_c_dialog_error_ab89c275a0112d1289da682c75e0b5b67}{00030}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_c_dialog_error_ab89c275a0112d1289da682c75e0b5b67}{CDialogError::DoDataExchange}}(CDataExchange*\ pDX)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00031}00031\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00032}00032\ \ \ \ \ CDialogEx::DoDataExchange(pDX);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00033}00033\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00034}00034\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00035}\doxymbox{\hyperlink{class_c_dialog_error_aafed4b58226e90ebc8848880bea2cdc8}{00035}}\ BOOL\ \doxymbox{\hyperlink{class_c_dialog_error_aafed4b58226e90ebc8848880bea2cdc8}{CDialogError::OnInitDialog}}()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00036}00036\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00037}00037\ \ \ \ \ CDialogEx::OnInitDialog();}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00038}00038\ \ \ \ \ CRect\ clientRect;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00039}00039\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00040}00040\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00041}00041\ \ \ \ \ ModifyStyle(WS\_CAPTION,\ 0);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00042}00042\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00043}00043\ \textcolor{preprocessor}{\#if\ 1}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00044}00044\ \ \ \ \ HMONITOR\ hMonitor\ =\ MonitorFromWindow(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00045}00045\ \ \ \ \ \ \ \ \ GetSafeHwnd(),}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00046}00046\ \ \ \ \ \ \ \ \ MONITOR\_DEFAULTTONEAREST}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00047}00047\ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00048}00048\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00049}00049\ \ \ \ \ MONITORINFO\ mi\ =\ \{\};}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00050}00050\ \ \ \ \ mi.cbSize\ =\ \textcolor{keyword}{sizeof}(mi);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00052}00052\ \ \ \ \ \textcolor{keywordflow}{if}\ (GetMonitorInfo(hMonitor,\ \&mi))}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00053}00053\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00054}00054\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ screenWidth\ =}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ mi.rcMonitor.right\ -\/\ mi.rcMonitor.left;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00056}00056\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ screenHeight\ =}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00057}00057\ \ \ \ \ \ \ \ \ \ \ \ \ mi.rcMonitor.bottom\ -\/\ mi.rcMonitor.top;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00058}00058\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00059}00059\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00060}00060\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ x\ =\ mi.rcMonitor.left\ +\ screenWidth\ *\ 10\ /\ 100;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00061}00061\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ y\ =\ mi.rcMonitor.top\ +\ screenHeight\ *\ 10\ /\ 100;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00062}00062\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ width\ =\ screenWidth\ *\ 80\ /\ 100;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00063}00063\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ height\ =\ screenHeight\ *\ 80\ /\ 100;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00064}00064\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00065}00065\ \ \ \ \ \ \ \ \ SetWindowPos(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00066}00066\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00067}00067\ \ \ \ \ \ \ \ \ \ \ \ \ x,\ y,}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00068}00068\ \ \ \ \ \ \ \ \ \ \ \ \ width,\ height,}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00069}00069\ \ \ \ \ \ \ \ \ \ \ \ \ SWP\_NOZORDER}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00070}00070\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00071}00071\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00072}00072\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00073}00073\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00074}00074\ \ \ \ \ SetWindowPos(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00075}00075\ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00076}00076\ \ \ \ \ \ \ \ \ 1000,\ 300,\ \ \textcolor{comment}{//\ x,\ y}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00077}00077\ \ \ \ \ \ \ \ \ 400,\ 400,\ \ \ \textcolor{comment}{//\ width,\ height}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00078}00078\ \ \ \ \ \ \ \ \ SWP\_NOZORDER}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00079}00079\ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00080}00080\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00081}00081\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00082}00082\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00083}00083\ \ \ \ \ GetClientRect(\&clientRect);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00084}00084\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00085}00085\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00086}00086\ \ \ \ \ CWnd*\ pOKButton\ =\ GetDlgItem(IDOK\_ORIGINAL);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00087}00087\ \ \ \ \ CWnd*\ pCANCELButton\ =\ GetDlgItem(IDCANCEL\_ORIGINAL);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00088}00088\ \ \ \ \ \textcolor{keywordtype}{int}\ buttonWidth\ =\ 100;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00089}00089\ \ \ \ \ \textcolor{keywordtype}{int}\ buttonHeight\ =\ 30;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00090}00090\ \ \ \ \ \textcolor{keywordtype}{int}\ margin\ =\ 10;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00091}00091\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00092}00092\ \ \ \ \ \textcolor{keywordtype}{int}\ baseWindowWidth\ =\ clientRect.Width();}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00093}00093\ \ \ \ \ \textcolor{keywordtype}{int}\ baseWindowHeight\ =\ clientRect.Height();}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00094}00094\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00095}00095\ \textcolor{preprocessor}{\#if\ 0}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00096}00096\ \ \ \ \ \textcolor{keywordflow}{if}\ (pOKButton\ !=\ \textcolor{keyword}{nullptr})}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00097}00097\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00098}00098\ \ \ \ \ \ \ \ \ pOKButton-\/>SetWindowPos(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ 200,\ 300,\ \ \textcolor{comment}{//\ XY}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00101}00101\ \ \ \ \ \ \ \ \ \ \ \ \ 100,\ 30,\ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00102}00102\ \ \ \ \ \ \ \ \ \ \ \ \ SWP\_NOZORDER}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00103}00103\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00104}00104\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00105}00105\ \ \ \ \ \textcolor{keywordflow}{if}\ (pCANCELButton\ !=\ \textcolor{keyword}{nullptr})}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00106}00106\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00107}00107\ \ \ \ \ \ \ \ \ pCANCELButton-\/>SetWindowPos(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00108}00108\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00109}00109\ \ \ \ \ \ \ \ \ \ \ \ \ 300,\ 300,\ \ \textcolor{comment}{//\ XY}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00110}00110\ \ \ \ \ \ \ \ \ \ \ \ \ 100,\ 30,\ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00111}00111\ \ \ \ \ \ \ \ \ \ \ \ \ SWP\_NOZORDER}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00112}00112\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00113}00113\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00114}00114\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00115}00115\ \ \ \ \ \textcolor{keywordflow}{if}\ (pOKButton\ !=\ \textcolor{keyword}{nullptr})}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00116}00116\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00117}00117\ \ \ \ \ \ \ \ \ pOKButton-\/>SetWindowPos(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00118}00118\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00119}00119\ \ \ \ \ \ \ \ \ \ \ \ \ baseWindowWidth\ \ -\/\ (\ buttonWidth\ +\ margin\ )\ *\ 2,\ \ \textcolor{comment}{//\ X}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00120}00120\ \ \ \ \ \ \ \ \ \ \ \ \ baseWindowHeight\ -\/\ (\ buttonHeight\ +\ margin\ ),\ \ \textcolor{comment}{//\ Y}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00121}00121\ \ \ \ \ \ \ \ \ \ \ \ \ buttonWidth,\ buttonHeight,\ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00122}00122\ \ \ \ \ \ \ \ \ \ \ \ \ SWP\_NOZORDER}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00123}00123\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00124}00124\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00125}00125\ \ \ \ \ \textcolor{keywordflow}{if}\ (pCANCELButton\ !=\ \textcolor{keyword}{nullptr})}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00126}00126\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00127}00127\ \ \ \ \ \ \ \ \ pCANCELButton-\/>SetWindowPos(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00128}00128\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00129}00129\ \ \ \ \ \ \ \ \ \ \ \ \ baseWindowWidth\ \ -\/\ (\ buttonWidth\ +\ margin\ ),\ \ \textcolor{comment}{//\ X}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00130}00130\ \ \ \ \ \ \ \ \ \ \ \ \ baseWindowHeight\ -\/\ (\ buttonHeight\ +\ margin\ ),\ \ \textcolor{comment}{//\ Y}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00131}00131\ \ \ \ \ \ \ \ \ \ \ \ \ buttonWidth,\ buttonHeight,\ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00132}00132\ \ \ \ \ \ \ \ \ \ \ \ \ SWP\_NOZORDER}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00133}00133\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00134}00134\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00135}00135\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00136}00136\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00137}00137\ \ \ \ \ CWnd*\ pStaticText\ =\ GetDlgItem(IDC\_STATIC\_TEXT\_ORIGINAL);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00138}00138\ \ \ \ \ \textcolor{keywordflow}{if}\ (pStaticText\ !=\ \textcolor{keyword}{nullptr})\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00139}00139\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ textX\ =\ 100;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00140}00140\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ textY\ =\ 10;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00141}00141\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ textWidth\ =\ 100;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00142}00142\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ textHeight\ =\ 30;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00143}00143\ \ \ \ \ \ \ \ \ pStaticText-\/>SetWindowText(\_T(\textcolor{stringliteral}{"{}OlympusLOGO"{}}));}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00144}00144\ \ \ \ \ \ \ \ \ pStaticText-\/>SetWindowPos(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00145}00145\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00146}00146\ \ \ \ \ \ \ \ \ \ \ \ \ textX,\ textY,\ \ \textcolor{comment}{//\ XY}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00147}00147\ \ \ \ \ \ \ \ \ \ \ \ \ textWidth,\ textHeight,\ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00148}00148\ \ \ \ \ \ \ \ \ \ \ \ \ SWP\_NOZORDER}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00149}00149\ \ \ \ \ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00150}00150\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00151}00151\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00152}00152\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00153}00153\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00154}00154\ \ \ \ \ \doxymbox{\hyperlink{class_c_dialog_error_ab42f3e65b3d48fb8ad96768cb658eab7}{m\_font}}.CreatePointFont(100,\ \_T(\textcolor{stringliteral}{"{}"{}}));}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00155}00155\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00156}00156\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00157}00157\ \ \ \ \ SetFont(\&\doxymbox{\hyperlink{class_c_dialog_error_ab42f3e65b3d48fb8ad96768cb658eab7}{m\_font}});}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00158}00158\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00159}00159\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00160}00160\ \ \ \ \ GetDlgItem(IDOK\_ORIGINAL)-\/>SetFont(\&\doxymbox{\hyperlink{class_c_dialog_error_ab42f3e65b3d48fb8ad96768cb658eab7}{m\_font}});}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00161}00161\ \ \ \ \ GetDlgItem(IDCANCEL\_ORIGINAL)-\/>SetFont(\&\doxymbox{\hyperlink{class_c_dialog_error_ab42f3e65b3d48fb8ad96768cb658eab7}{m\_font}});}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00162}00162\ \ \ \ \ GetDlgItem(IDC\_STATIC\_TEXT\_ORIGINAL)-\/>SetFont(\&\doxymbox{\hyperlink{class_c_dialog_error_ab42f3e65b3d48fb8ad96768cb658eab7}{m\_font}});}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00163}00163\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00164}00164\ \ \ \ \ Gdiplus::GdiplusStartupInput\ startupInput;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00165}00165\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00166}00166\ \ \ \ \ Gdiplus::GdiplusStartup(}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00167}00167\ \ \ \ \ \ \ \ \ \&\doxymbox{\hyperlink{class_c_dialog_error_ae59d6d84a93c3891bcd915eae9483749}{m\_gdiplusToken}},}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00168}00168\ \ \ \ \ \ \ \ \ \&startupInput,}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00169}00169\ \ \ \ \ \ \ \ \ \textcolor{keyword}{nullptr}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00170}00170\ \ \ \ \ );}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00171}00171\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00172}00172\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00173}00173\ \ \ \ \ \textcolor{keywordflow}{return}\ TRUE;\ \ \textcolor{comment}{//\ TRUE\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00174}00174\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00175}00175\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00176}\doxymbox{\hyperlink{class_c_dialog_error_a78fc5fbfeedbde54d43906aa7ec66aa7}{00176}}\ BOOL\ \doxymbox{\hyperlink{class_c_dialog_error_a78fc5fbfeedbde54d43906aa7ec66aa7}{CDialogError::OnDestroy}}()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00177}00177\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00178}00178\ \ \ \ \ CDialogEx::OnDestroy();}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00179}00179\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00180}00180\ \ \ \ \ \textcolor{keywordflow}{if}\ (\doxymbox{\hyperlink{class_c_dialog_error_ae59d6d84a93c3891bcd915eae9483749}{m\_gdiplusToken}}\ !=\ 0)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00181}00181\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00182}00182\ \ \ \ \ \ \ \ \ Gdiplus::GdiplusShutdown(\doxymbox{\hyperlink{class_c_dialog_error_ae59d6d84a93c3891bcd915eae9483749}{m\_gdiplusToken}});}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00183}00183\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_c_dialog_error_ae59d6d84a93c3891bcd915eae9483749}{m\_gdiplusToken}}\ =\ 0;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00184}00184\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00185}00185\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00186}00186\ \ \ \ \ \textcolor{keywordflow}{return}\ TRUE;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00187}00187\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00188}00188\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00189}00189\ \textcolor{preprocessor}{\#if\ 1}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00190}\doxymbox{\hyperlink{class_c_dialog_error_a351064e4a7b34e0dfa3903d55b6b3182}{00190}}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_c_dialog_error_a351064e4a7b34e0dfa3903d55b6b3182}{CDialogError::show}}()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00191}00191\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00192}00192\ \ \ \ \ \textcolor{keywordtype}{int}\ nResponse\ =\ (int)DoModal();}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00193}00193\ \ \ \ \ \textcolor{keywordflow}{if}\ (nResponse\ ==\ RESULT\_OK)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00194}00194\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00195}00195\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ OK\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00196}00196\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ nResponse;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00197}00197\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00198}00198\ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (nResponse\ ==\ RESULT\_CANCEL)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00199}00199\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00200}00200\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ \ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00201}00201\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ nResponse;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00202}00202\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00203}00203\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00204}00204\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00205}00205\ \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00206}00206\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{class_c_dialog_error_a351064e4a7b34e0dfa3903d55b6b3182}{CDialogError::show}}(CWnd\ *pParent)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00207}00207\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00208}00208\ \ \ \ \ \textcolor{keywordflow}{if}\ (GetSafeHwnd()\ ==\ \textcolor{keyword}{nullptr})}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00209}00209\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00210}00210\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!Create(IDD\_DIALOG\_TEST\_ERROR,\ pParent))}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00211}00211\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00212}00212\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00213}00213\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00214}00214\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00215}00215\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00216}00216\ \ \ \ \ ShowWindow(SW\_SHOW);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00217}00217\ \ \ \ \ SetForegroundWindow();}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00218}00218\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{true};}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00219}00219\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00220}00220\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00221}00221\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00222}00222\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00223}00223\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00224}00224\ BEGIN\_MESSAGE\_MAP(\doxymbox{\hyperlink{class_c_dialog_error}{CDialogError}},\ CDialogEx)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00225}00225\ \ \ \ \ ON\_WM\_PAINT()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00226}00226\ \ \ \ \ ON\_BN\_CLICKED(IDOK\_ORIGINAL,\ \&\doxymbox{\hyperlink{class_c_dialog_error}{CDialogError}}::OnBnClickedOriginal)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00227}00227\ \ \ \ \ ON\_BN\_CLICKED(IDCANCEL\_ORIGINAL,\ \&\doxymbox{\hyperlink{class_c_dialog_error}{CDialogError}}::OnBnClickedCancelOriginal)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00228}00228\ END\_MESSAGE\_MAP()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00229}00229\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00230}\doxymbox{\hyperlink{class_c_dialog_error_a2280b6bc403e480736657911f7512fd8}{00230}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_c_dialog_error_ac51b2ff1739a1cf76b4ba8c3bea53ce0}{CDialogError}}::\doxymbox{\hyperlink{class_c_dialog_error_a2280b6bc403e480736657911f7512fd8}{OnPaint}}()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00231}00231\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00232}00232\ \ \ \ \ CPaintDC\ dc(\textcolor{keyword}{this});\ \textcolor{comment}{//\ \ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00233}00233\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00234}00234\ \ \ \ \ Gdiplus::Graphics\ graphics(dc.GetSafeHdc());}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00235}00235\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00236}00236\ \ \ \ \ Gdiplus::Image\ image(L\textcolor{stringliteral}{"{}.\(\backslash\)\(\backslash\)res\(\backslash\)\(\backslash\)olympus.png"{}});}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00237}00237\ \ \ \ \ \textcolor{keywordflow}{if}\ (image.GetLastStatus()\ !=\ Gdiplus::Ok)}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00238}00238\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00239}00239\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return};}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00240}00240\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00241}00241\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00242}00242\ \ \ \ \ \textcolor{comment}{//\ \ (20,\ 20)\ \ 300\ 200\ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00243}00243\ \ \ \ \ graphics.DrawImage(\&image,\ 0,\ 40,\ 200,\ 200);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00244}00244\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00245}00245\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00246}00246\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00247}00247\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00248}00248\ \textcolor{comment}{//\ CDialogError\ \ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00249}00249\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00250}\doxymbox{\hyperlink{class_c_dialog_error_a46481c24f7b018b8597537b5d49eefd1}{00250}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_c_dialog_error_a46481c24f7b018b8597537b5d49eefd1}{CDialogError::OnBnClickedOriginal}}()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00251}00251\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00252}00252\ \ \ \ \ \textcolor{comment}{//\ TODO:\ \ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00253}00253\ \ \ \ \ EndDialog(RESULT\_OK);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00254}00254\ \}}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00255}00255\ }
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00256}\doxymbox{\hyperlink{class_c_dialog_error_a4f2d55b3b92a5b63f0ae3a33d3e031a8}{00256}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_c_dialog_error_a4f2d55b3b92a5b63f0ae3a33d3e031a8}{CDialogError::OnBnClickedCancelOriginal}}()}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00257}00257\ \{}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00258}00258\ \ \ \ \ \textcolor{comment}{//\ TODO:\ \ }}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00259}00259\ \ \ \ \ EndDialog(RESULT\_CANCEL);}
+\DoxyCodeLine{\Hypertarget{_c_dialog_error_8cpp_source_l00260}00260\ \}}
+
+\end{DoxyCode}

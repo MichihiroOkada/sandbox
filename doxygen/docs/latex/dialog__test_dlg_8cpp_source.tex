@@ -1,0 +1,176 @@
+\doxysection{dialog\+\_\+test\+Dlg.\+cpp}
+\hypertarget{dialog__test_dlg_8cpp_source}{}\label{dialog__test_dlg_8cpp_source}\index{dialog\_testDlg.cpp@{dialog\_testDlg.cpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00001}00001\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00002}00002\ \textcolor{comment}{//\ dialog\_testDlg.cpp\ :\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00003}00003\ \textcolor{comment}{//}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ "{}pch.h"{}}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ "{}framework.h"{}}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ "{}dialog\_test.h"{}}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ "{}dialog\_testDlg.h"{}}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ "{}afxdialogex.h"{}}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ "{}CDialogError.h"{}}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00011}00011\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00012}00012\ \textcolor{preprocessor}{\#ifdef\ \_DEBUG}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00013}00013\ \textcolor{preprocessor}{\#define\ new\ DEBUG\_NEW}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00014}00014\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00015}00015\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00017}00017\ \textcolor{comment}{//\ \ CAboutDlg\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00018}00018\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00019}\doxymbox{\hyperlink{class_c_about_dlg}{00019}}\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{class_c_about_dlg_a6d1e6a33fef23bee6e75254189d865ce}{CAboutDlg}}\ :\ \textcolor{keyword}{public}\ CDialogEx}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00020}00020\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00021}00021\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00022}00022\ \ \ \ \ \doxymbox{\hyperlink{class_c_about_dlg_a6d1e6a33fef23bee6e75254189d865ce}{CAboutDlg}}();}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00024}00024\ \textcolor{comment}{//\ \ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00025}00025\ \textcolor{preprocessor}{\#ifdef\ AFX\_DESIGN\_TIME}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00026}00026\ \ \ \ \ \textcolor{keyword}{enum}\ \{\ IDD\ =\ IDD\_ABOUTBOX\ \};}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00027}00027\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00029}00029\ \ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00030}00030\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_c_about_dlg_ab83db7484fec957282d7d5a21aed4df4}{DoDataExchange}}(CDataExchange*\ pDX);\ \ \ \ \textcolor{comment}{//\ DDX/DDV\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00032}00032\ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00033}00033\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00034}00034\ \ \ \ \ DECLARE\_MESSAGE\_MAP()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00035}00035\ \};}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00036}00036\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00037}\doxymbox{\hyperlink{class_c_about_dlg_a6d1e6a33fef23bee6e75254189d865ce}{00037}}\ \doxymbox{\hyperlink{class_c_about_dlg_a6d1e6a33fef23bee6e75254189d865ce}{CAboutDlg::CAboutDlg}}()\ :\ CDialogEx(IDD\_ABOUTBOX)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00038}00038\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00040}00040\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00041}00041\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00042}\doxymbox{\hyperlink{class_c_about_dlg_ab83db7484fec957282d7d5a21aed4df4}{00042}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_c_about_dlg_ab83db7484fec957282d7d5a21aed4df4}{CAboutDlg::DoDataExchange}}(CDataExchange*\ pDX)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00043}00043\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00045}00045\ \ \ \ \ CDialogEx::DoDataExchange(pDX);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00046}00046\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00047}00047\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00048}00048\ BEGIN\_MESSAGE\_MAP(\doxymbox{\hyperlink{class_c_about_dlg}{CAboutDlg}},\ CDialogEx)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00049}00049\ END\_MESSAGE\_MAP()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00050}00050\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00052}00052\ \textcolor{comment}{//\ CdialogtestDlg\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00053}00053\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00054}00054\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00055}00055\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00056}\doxymbox{\hyperlink{class_cdialogtest_dlg_a9b27cddb9ed73c68673946eddee714b8}{00056}}\ \doxymbox{\hyperlink{class_cdialogtest_dlg_a9b27cddb9ed73c68673946eddee714b8}{CdialogtestDlg}}::\doxymbox{\hyperlink{class_cdialogtest_dlg_a9b27cddb9ed73c68673946eddee714b8}{CdialogtestDlg}}(CWnd*\ pParent\ \textcolor{comment}{/*=nullptr*/})}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00057}00057\ \ \ \ \ :\ CDialogEx(IDD\_DIALOG\_TEST\_DIALOG,\ pParent)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00058}00058\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00059}00059\ \ \ \ \ \doxymbox{\hyperlink{class_cdialogtest_dlg_a8e23b516f475cddc257dd2b108a32346}{m\_hIcon}}\ =\ AfxGetApp()-\/>LoadIcon(IDR\_MAINFRAME);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00060}00060\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00061}00061\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00062}\doxymbox{\hyperlink{class_cdialogtest_dlg_a3d73525444f9fc4c45bb8e4e859111cd}{00062}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_cdialogtest_dlg_a3d73525444f9fc4c45bb8e4e859111cd}{CdialogtestDlg::DoDataExchange}}(CDataExchange*\ pDX)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00063}00063\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00064}00064\ \ \ \ \ CDialogEx::DoDataExchange(pDX);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00065}00065\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00066}00066\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00067}00067\ BEGIN\_MESSAGE\_MAP(\doxymbox{\hyperlink{class_cdialogtest_dlg}{CdialogtestDlg}},\ CDialogEx)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00068}00068\ \ \ \ \ ON\_WM\_SYSCOMMAND()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00069}00069\ \ \ \ \ ON\_WM\_PAINT()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00070}00070\ \ \ \ \ ON\_WM\_QUERYDRAGICON()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00071}00071\ \ \ \ \ ON\_BN\_CLICKED(IDC\_BUTTON1,\ \&\doxymbox{\hyperlink{class_cdialogtest_dlg}{CdialogtestDlg}}::OnBnClickedButton1)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00072}00072\ END\_MESSAGE\_MAP()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00073}00073\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00074}00074\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00075}00075\ \textcolor{comment}{//\ CdialogtestDlg\ \ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00076}00076\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00077}\doxymbox{\hyperlink{class_cdialogtest_dlg_a0d2ff1b90fffd25e6c9d245fabec5723}{00077}}\ BOOL\ \doxymbox{\hyperlink{class_cdialogtest_dlg_a9b27cddb9ed73c68673946eddee714b8}{CdialogtestDlg}}::\doxymbox{\hyperlink{class_cdialogtest_dlg_a0d2ff1b90fffd25e6c9d245fabec5723}{OnInitDialog}}()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00078}00078\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00079}00079\ \ \ \ \ CDialogEx::OnInitDialog();}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00080}00080\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00081}00081\ \ \ \ \ \textcolor{comment}{//\ "{}..."{}\ \ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00082}00082\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00083}00083\ \ \ \ \ \textcolor{comment}{//\ IDM\_ABOUTBOX\ \ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00084}00084\ \ \ \ \ ASSERT((IDM\_ABOUTBOX\ \&\ 0xFFF0)\ ==\ IDM\_ABOUTBOX);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00085}00085\ \ \ \ \ ASSERT(IDM\_ABOUTBOX\ <\ 0xF000);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00086}00086\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00088}00088\ \ \ \ \ CMenu*\ pSysMenu\ =\ GetSystemMenu(FALSE);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00089}00089\ \ \ \ \ \textcolor{keywordflow}{if}\ (pSysMenu\ !=\ \textcolor{keyword}{nullptr})}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00090}00090\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00091}00091\ \ \ \ \ \ \ \ \ BOOL\ bNameValid;}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00092}00092\ \ \ \ \ \ \ \ \ CString\ strAboutMenu;}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00094}00094\ \ \ \ \ \ \ \ \ bNameValid\ =\ strAboutMenu.LoadString(IDS\_ABOUTBOX);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00095}00095\ \ \ \ \ \ \ \ \ ASSERT(bNameValid);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00096}00096\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!strAboutMenu.IsEmpty())}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00097}00097\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00099}00099\ \ \ \ \ \ \ \ \ \ \ \ \ pSysMenu-\/>AppendMenu(MF\_SEPARATOR);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00100}00100\ \ \ \ \ \ \ \ \ \ \ \ \ pSysMenu-\/>AppendMenu(MF\_STRING,\ IDM\_ABOUTBOX,\ strAboutMenu);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00101}00101\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00102}00102\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00103}00103\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00104}00104\ \ \ \ \ \textcolor{comment}{//\ \ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00105}00105\ \ \ \ \ \textcolor{comment}{//\ \ Framework\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00106}00106\ \ \ \ \ SetIcon(\doxymbox{\hyperlink{class_cdialogtest_dlg_a8e23b516f475cddc257dd2b108a32346}{m\_hIcon}},\ TRUE);\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00107}00107\ \ \ \ \ SetIcon(\doxymbox{\hyperlink{class_cdialogtest_dlg_a8e23b516f475cddc257dd2b108a32346}{m\_hIcon}},\ FALSE);\ \ \ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00108}00108\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00109}00109\ \ \ \ \ \textcolor{comment}{//\ TODO:\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00110}00110\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00111}00111\ \ \ \ \ \textcolor{keywordflow}{return}\ TRUE;\ \ \textcolor{comment}{//\ TRUE\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00112}00112\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00113}00113\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00114}\doxymbox{\hyperlink{class_cdialogtest_dlg_ab0866a7addb639f95861218e7ada8d3d}{00114}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_cdialogtest_dlg_ab0866a7addb639f95861218e7ada8d3d}{CdialogtestDlg::OnSysCommand}}(UINT\ nID,\ LPARAM\ lParam)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00115}00115\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00117}00117\ \ \ \ \ \textcolor{keywordflow}{if}\ ((nID\ \&\ 0xFFF0)\ ==\ IDM\_ABOUTBOX)}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00118}00118\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00119}00119\ \ \ \ \ \ \ \ \ \doxymbox{\hyperlink{class_c_about_dlg}{CAboutDlg}}\ dlgAbout;}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00120}00120\ \ \ \ \ \ \ \ \ dlgAbout.DoModal();}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00121}00121\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00122}00122\ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00123}00123\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00124}00124\ \ \ \ \ \ \ \ \ CDialogEx::OnSysCommand(nID,\ lParam);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00125}00125\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00127}00127\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00128}00128\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00129}00129\ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00130}00130\ \textcolor{comment}{//\ \ /\ \ MFC\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00131}00131\ \textcolor{comment}{//\ \ Framework\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00132}00132\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00133}\doxymbox{\hyperlink{class_cdialogtest_dlg_a645e38b3e2030c297ee0c18f70feffe5}{00133}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_cdialogtest_dlg_a645e38b3e2030c297ee0c18f70feffe5}{CdialogtestDlg::OnPaint}}()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00134}00134\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00135}00135\ \ \ \ \ \textcolor{keywordflow}{if}\ (IsIconic())}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00136}00136\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00137}00137\ \ \ \ \ \ \ \ \ CPaintDC\ dc(\textcolor{keyword}{this});\ \textcolor{comment}{//\ \ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00138}00138\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00139}00139\ \ \ \ \ \ \ \ \ SendMessage(WM\_ICONERASEBKGND,\ \textcolor{keyword}{reinterpret\_cast<}WPARAM\textcolor{keyword}{>}(dc.GetSafeHdc()),\ 0);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00140}00140\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00141}00141\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00142}00142\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ cxIcon\ =\ GetSystemMetrics(SM\_CXICON);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00143}00143\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ cyIcon\ =\ GetSystemMetrics(SM\_CYICON);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00144}00144\ \ \ \ \ \ \ \ \ CRect\ rect;}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00145}00145\ \ \ \ \ \ \ \ \ GetClientRect(\&rect);}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00146}00146\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ x\ =\ (rect.Width()\ -\/\ cxIcon\ +\ 1)\ /\ 2;}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00147}00147\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ y\ =\ (rect.Height()\ -\/\ cyIcon\ +\ 1)\ /\ 2;}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00148}00148\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00149}00149\ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00150}00150\ \ \ \ \ \ \ \ \ dc.DrawIcon(x,\ y,\ \doxymbox{\hyperlink{class_cdialogtest_dlg_a8e23b516f475cddc257dd2b108a32346}{m\_hIcon}});}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00151}00151\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00152}00152\ \ \ \ \ \textcolor{keywordflow}{else}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00153}00153\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00154}00154\ \ \ \ \ \ \ \ \ CDialogEx::OnPaint();}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00155}00155\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00156}00156\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00157}00157\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00158}00158\ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00159}00159\ \textcolor{comment}{//\ \ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00160}\doxymbox{\hyperlink{class_cdialogtest_dlg_a9f8df43319ee6d561079a406f7ba5b36}{00160}}\ HCURSOR\ \doxymbox{\hyperlink{class_cdialogtest_dlg_a9f8df43319ee6d561079a406f7ba5b36}{CdialogtestDlg::OnQueryDragIcon}}()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00161}00161\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00162}00162\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{static\_cast<}HCURSOR\textcolor{keyword}{>}(\doxymbox{\hyperlink{class_cdialogtest_dlg_a8e23b516f475cddc257dd2b108a32346}{m\_hIcon}});}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00163}00163\ \}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00164}00164\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00165}00165\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00166}\doxymbox{\hyperlink{class_cdialogtest_dlg_ad88d9649a7e2daaad23ff9c4532dea4b}{00166}}\ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{class_cdialogtest_dlg_ad88d9649a7e2daaad23ff9c4532dea4b}{CdialogtestDlg::OnBnClickedButton1}}()}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00167}00167\ \{}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00168}00168\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00169}00169\ \ \ \ \ \textcolor{comment}{//CDialogError\ dlg;}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00170}00170\ \ \ \ \ \textcolor{comment}{//dlg.DoModal();}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00171}00171\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00172}00172\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00173}00173\ \ \ \ \ \textcolor{comment}{//bool\ result\ =\ m\_dialogError.show(this);}}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00174}00174\ }
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00175}00175\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00176}00176\ \ \ \ \ \textcolor{keywordtype}{bool}\ result\ =\ \doxymbox{\hyperlink{class_cdialogtest_dlg_a941673f9aad980f9337a9dbb91b1c543}{m\_dialogError}}.\doxymbox{\hyperlink{class_c_dialog_error_a351064e4a7b34e0dfa3903d55b6b3182}{show}}();}
+\DoxyCodeLine{\Hypertarget{dialog__test_dlg_8cpp_source_l00177}00177\ \}}
+
+\end{DoxyCode}

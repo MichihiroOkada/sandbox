@@ -1,0 +1,2000 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.24)  25 OCT 2026 20:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./refman.tex
+(refman.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+package info suppressed
+) (doxygen.sty
+Package: doxygen 
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\alltt.sty
+Package: alltt 2024/07/07 v2.0g defines alltt environment
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box53
+\extrarowheight=\dimen150
+\NC@list=\toks17
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box54
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count284
+\calc@Bcount=\count285
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count286
+\calc@Cskip=\skip55
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count287
+\float@exts=\toks18
+\float@box=\box55
+\@float@everytoks=\toks19
+\@floatcapt=\box56
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read2
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count288
+\@vwid@loff=\dimen153
+\@vwid@roff=\dimen154
+)
+==> First Aid for varwidth.sty applied!
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+\everycr=\toks22
+\minrowclearance=\skip56
+\rownum=\count289
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count290
+\LTcapwidth=\dimen155
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count291
+\LT@rows=\count292
+\c@LT@tables=\count293
+\c@LT@chunks=\count294
+\LT@p@ftn=\toks23
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/xltabular\xltabular.sty
+Package: xltabular 2025/02/28 v0.2i `xltabular' package (hv,RN)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen156
+\TX@old@table=\dimen157
+\TX@old@col=\dimen158
+\TX@target=\dimen159
+\TX@delta=\dimen160
+\TX@cols=\count295
+\TX@ftn=\toks24
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count296
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.sty
+Package: tabularray 2025-11-27 v2025C Typeset tabulars and arrays with LaTeX3
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
+sty (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
+x.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count297
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+))
+\g__tblr_nohyper_int=\count298
+\l__tblr_a_int=\count299
+\l__tblr_c_int=\count300
+\l__tblr_r_int=\count301
+\l__tblr_d_dim=\dimen161
+\l__tblr_h_dim=\dimen162
+\l__tblr_o_dim=\dimen163
+\l__tblr_p_dim=\dimen164
+\l__tblr_q_dim=\dimen165
+\l__tblr_r_dim=\dimen166
+\l__tblr_s_dim=\dimen167
+\l__tblr_t_dim=\dimen168
+\l__tblr_v_dim=\dimen169
+\l__tblr_w_dim=\dimen170
+\l__tblr_a_box=\box63
+\l__tblr_b_box=\box64
+\l__tblr_c_box=\box65
+\l__tblr_d_box=\box66
+\c@tblrcount=\count302
+\c@colnum=\count303
+\c@rowcount=\count304
+\c@colcount=\count305
+\abovesep=\dimen171
+\belowsep=\dimen172
+\leftsep=\dimen173
+\rightsep=\dimen174
+\gTblrLevelInt=\count306
+\g__tblr_data_row_key_count_int=\count307
+\g__tblr_data_column_key_count_int=\count308
+\g__tblr_data_cell_key_count_int=\count309
+\g__tblr_array_int=\count310
+\l__tblr_key_count_int=\count311
+\l__tblr_key_quotient_int=\count312
+\l__tblr_key_quotient_two_int=\count313
+\l__tblr_key_remainder_int=\count314
+\g__tblr_data_str_value_count_int=\count315
+\lTblrChildTotalInt=\count316
+\lTblrChildHtotalInt=\count317
+\lTblrChildVtotalInt=\count318
+\l__child_diff_h_int=\count319
+\l__child_diff_v_int=\count320
+\l__child_sign_h_int=\count321
+\l__child_sign_v_int=\count322
+\l__child_step_int=\count323
+\lTblrDefaultHruleWidthDim=\dimen175
+\lTblrDefaultVruleWidthDim=\dimen176
+\l__tblr_split_balance_int=\count324
+\l__tblr_strut_dp_dim=\dimen177
+\l__tblr_strut_ht_dim=\dimen178
+\g__tblr_cell_wd_dim=\dimen179
+\g__tblr_cell_ht_dim=\dimen180
+\g__tblr_cell_head_dim=\dimen181
+\g__tblr_cell_foot_dim=\dimen182
+\l__tblr_measured_cell_box=\box67
+\g__tblr_last_box=\box68
+\l__tblr_temp_box=\box69
+\l__tblr_column_target_dim=\dimen183
+\l__tblr_hfuzz_dim=\dimen184
+\l__tblr_caption_box=\box70
+\l__tblr_caption_left_box=\box71
+\lTblrRowHeadInt=\count325
+\lTblrRowFootInt=\count326
+\l__tblr_row_head_box=\box72
+\l__tblr_row_foot_box=\box73
+\l__tblr_row_head_foot_dim=\dimen185
+\lTblrTableWidthDim=\dimen186
+\l__tblr_table_firsthead_box=\box74
+\l__tblr_table_middlehead_box=\box75
+\l__tblr_table_lasthead_box=\box76
+\l__tblr_table_firstfoot_box=\box77
+\l__tblr_table_middlefoot_box=\box78
+\l__tblr_table_lastfoot_box=\box79
+\l__tblr_remain_height_dim=\dimen187
+\l__tblr_next_rows_dim=\dimen188
+\l__tblr_page_overfill_dim=\dimen189
+\l__tblr_long_from_int=\count327
+\l__tblr_long_to_int=\count328
+\l__tblr_curr_i_int=\count329
+\l__tblr_prev_i_int=\count330
+\lTblrTablePageInt=\count331
+\l__tblr_table_head_box=\box80
+\l__tblr_table_foot_box=\box81
+\l__tblr_table_head_foot_dim=\dimen190
+\l__tblr_table_head_body_foot_dim=\dimen191
+\l__tblr_table_box=\box82
+\lTblrRowFirstInt=\count332
+\lTblrRowLastInt=\count333
+\l__tblr_cover_box_a_dim=\dimen192
+\l__tblr_cover_box_b_dim=\dimen193
+\l__tblr_table_hlines_box=\box83
+\l__tblr_hline_box=\box84
+\l__tblr_row_box=\box85
+\l__tblr_col_o_wd_dim=\dimen194
+\l__tblr_col_b_wd_dim=\dimen195
+\l__tblr_hline_leftskip_dim=\dimen196
+\l__tblr_hline_rightskip_dim=\dimen197
+\l__tblr_row_ht_dim=\dimen198
+\l__tblr_row_dp_dim=\dimen199
+\l__tblr_row_abovesep_dim=\dimen256
+\l__tblr_row_belowsep_dim=\dimen257
+\l__tblr_row_vlines_box=\box86
+\l__tblr_vline_box=\box87
+\l__tblr_cell_box=\box88
+\l__tblr_row_upper_dim=\dimen258
+\l__tblr_row_lower_dim=\dimen259
+\l__tblr_row_vpace_dim=\dimen260
+\l__tblr_vline_aboveskip_dim=\dimen261
+\l__tblr_vline_belowskip_dim=\dimen262
+\lTblrCellRowSpanInt=\count334
+\lTblrCellColSpanInt=\count335
+\l__tblr_cell_wd_dim=\dimen263
+\l__tblr_cell_ht_dim=\dimen264
+\lTblrCellAboveBorderWidthDim=\dimen265
+\lTblrCellBelowBorderWidthDim=\dimen266
+\lTblrCellLeftBorderWidthDim=\dimen267
+\lTblrCellRightBorderWidthDim=\dimen268
+\l__tblr_diag_box=\box89
+\l__tblr_cell_inner_wd_dim=\dimen269
+\l__tblr_cell_inner_dp_dim=\dimen270
+\l__tblr_cell_hanchor_dim=\dimen271
+\l__tblr_last_cell_table_ht_dim=\dimen272
+\l__tblr_last_cell_table_dp_dim=\dimen273
+\l__tblr_last_vline_wd_dim=\dimen274
+\l__tblr_tikz_node_box=\box90
+)
+\g__doxy_nohyper_int=\count336
+\doxytablewidth=\dimen275
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2026/08/13 4.7 verbatim text (tvz,hv)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+\FV@CodeLineNo=\count337
+\FV@InFile=\read3
+\FV@TabBox=\box91
+\c@FancyVerbLine=\count338
+\FV@StepNumber=\count339
+\FV@OutFile=\write3
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count340
+\mult@box=\box92
+\multicol@leftmargin=\dimen276
+\c@unbalance=\count341
+\c@collectmore=\count342
+\doublecol@number=\count343
+\multicoltolerance=\count344
+\multicolpretolerance=\count345
+\full@width=\dimen277
+\page@free=\dimen278
+\premulticols=\dimen279
+\postmulticols=\dimen280
+\multicolsep=\skip61
+\multicolbaselineskip=\skip62
+\partial@page=\box93
+\last@line=\box94
+\mc@boxedresult=\box95
+\maxbalancingoverflow=\dimen281
+\mult@rightbox=\box96
+\mult@grightbox=\box97
+\mult@firstbox=\box98
+\mult@gfirstbox=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\c@minrows=\count346
+\c@columnbadness=\count347
+\c@finalcolumnbadness=\count348
+\last@try=\dimen282
+\multicolovershoot=\dimen283
+\multicolundershoot=\dimen284
+\mult@nat@firstbox=\box136
+\colbreak@box=\box137
+\mc@col@check@num=\count349
+\g__mc_curr_col_int=\count350
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count351
+\multirow@dima=\skip64
+\bigstrutjot=\dimen285
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hanging\hanging.sty
+Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
+\h@ngcommawd=\skip65
+\h@ngfstopwd=\skip66
+\h@ngquotewd=\skip67
+\h@ngdquotewd=\skip68
+\h@ngquerywd=\skip69
+\h@ngexclwd=\skip70
+\h@ngcolonwd=\skip71
+\h@ngscolonwd=\skip72
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count352
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen286
+\Gin@req@width=\dimen287
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box138
+)
+\tc@llx=\dimen288
+\tc@lly=\dimen289
+\tc@urx=\dimen290
+\tc@ury=\dimen291
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen292
+\adjbox@Height=\dimen293
+\adjbox@Depth=\dimen294
+\adjbox@Totalheight=\dimen295
+\adjbox@pwidth=\dimen296
+\adjbox@pheight=\dimen297
+\adjbox@pdepth=\dimen298
+\adjbox@ptotalheight=\dimen299
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count353
+)) (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks28
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stackengine.s
+ty
+Package: stackengine 2021/07/22 v4.11\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofitems.s
+ty
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listofitems
+.tex
+\loi_cnt_foreach_nest=\count354
+\loi_nestcnt=\count355
+)
+Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count356
+\@boxshift=\skip73
+\stack@tmplength=\skip74
+\temp@stkl=\skip75
+\@stackedboxwidth=\skip76
+\@addedbox=\box139
+\@anchorbox=\box140
+\@insetbox=\box141
+\se@backgroundbox=\box142
+\stackedbox=\box143
+\@centerbox=\box144
+\c@ROWcellindex@=\count357
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip77
+\enit@outerparindent=\dimen300
+\enit@toks=\toks29
+\enit@inbox=\box145
+\enit@count@id=\count358
+\enitdp@description=\count359
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/alphalph\alphalph.sty
+Package: alphalph 2019/12/09 v2.6 Convert numbers to letters (HO)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box146
+\UL@hyphenbox=\box147
+\UL@skip=\skip78
+\UL@hook=\toks30
+\UL@height=\dimen301
+\UL@pe=\count360
+\UL@pixel=\dimen302
+\ULC@box=\box148
+Package: ulem 2019/11/18
+\ULdepth=\dimen303
+)
+\xrefbox=\box149
+\xreflength=\skip79
+\CodeWidthChar=\skip80
+\CodeHeightChar=\skip81
+\DoxyCodeWidth=\skip82
+\ttcharwidth=\skip83
+\c@DoxyEnumeratei=\count361
+\c@DoxyEnumerateii=\count362
+\c@DoxyEnumerateiii=\count363
+\c@DoxyEnumerateiv=\count364
+\c@DoxyEnumeratev=\count365
+\c@DoxyEnumeratevi=\count366
+\c@DoxyEnumeratevii=\count367
+\c@DoxyEnumerateviii=\count368
+\c@DoxyEnumerateix=\count369
+\c@DoxyEnumeratex=\count370
+\c@DoxyEnumeratexi=\count371
+\c@DoxyEnumeratexii=\count372
+\enitdp@DoxyEnumerate=\count373
+\enitdp@DoxyItemize=\count374
+\doxymboxbox=\box150
+\doxymboxlength=\skip84
+\c@subsubsubsection=\count375
+\c@subsubsubsubsection=\count376
+\c@subsubsubsubsubsection=\count377
+\c@subsubsubsubsubsubsection=\count378
+)
+(prototype.sty
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2025/11/28 version 6.9.0 text color boxes
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.st
+y (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-c
+ommon.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen304
+\pgfutil@tempdimb=\dimen305
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-l
+atex.def
+\pgfutil@abb=\box151
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.co
+de.tex
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.st
+y
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.st
+y
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.
+code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.c
+ode.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysli
+braryfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen306
+\pgf@y=\dimen307
+\pgf@xa=\dimen308
+\pgf@ya=\dimen309
+\pgf@xb=\dimen310
+\pgf@yb=\dimen311
+\pgf@xc=\dimen312
+\pgf@yc=\dimen313
+\pgf@xd=\dimen314
+\pgf@yd=\dimen315
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count379
+\c@pgf@countb=\count380
+\c@pgf@countc=\count381
+\c@pgf@countd=\count382
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count383
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-
+pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-
+common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyss
+oftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count384
+\pgfsyssoftpath@bigbuffer@items=\count385
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysp
+rotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.
+code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.t
+ex
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.co
+de.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.
+code.tex
+\pgfmath@dimen=\dimen316
+\pgfmath@count=\count386
+\pgfmath@box=\box152
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.basic.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.random.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.comparison.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.base.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.round.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.misc.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctio
+ns.integerarithmetics.code.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.co
+de.tex)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.c
+ode.tex
+\c@pgfmathroundto@lastzeros=\count387
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.te
+x)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+oints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen317
+\pgf@picmaxx=\dimen318
+\pgf@picminy=\dimen319
+\pgf@picmaxy=\dimen320
+\pgf@pathminx=\dimen321
+\pgf@pathmaxx=\dimen322
+\pgf@pathminy=\dimen323
+\pgf@pathmaxy=\dimen324
+\pgf@xx=\dimen325
+\pgf@xy=\dimen326
+\pgf@yx=\dimen327
+\pgf@yy=\dimen328
+\pgf@zx=\dimen329
+\pgf@zy=\dimen330
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+athconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen331
+\pgf@path@lasty=\dimen332
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+athusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen333
+\pgf@shorten@start@additional=\dimen334
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcores
+copes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box153
+\pgf@hbox=\box154
+\pgf@layerbox@main=\box155
+\pgf@picture@serial@count=\count388
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreg
+raphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen335
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoret
+ransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen336
+\pgf@pt@y=\dimen337
+\pgf@pt@temp=\dimen338
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreq
+uick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreo
+bjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+athprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorea
+rrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen339
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcores
+hade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen340
+\pgf@sys@shading@range@num=\count389
+\pgf@shadingcount=\count390
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorei
+mage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoree
+xternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box156
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorel
+ayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoret
+ransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
+atterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorer
+df.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulesh
+apes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box157
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulepl
+ot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp
+-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen341
+\pgf@nodesepend=\dimen342
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp
+-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.c
+ode.tex))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.t
+ex))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.co
+de.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen343
+\pgffor@skip=\dimen344
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\
+tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
+yplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count391
+\pgfplotmarksize=\dimen345
+)
+\tikz@lastx=\dimen346
+\tikz@lasty=\dimen347
+\tikz@lastxsaved=\dimen348
+\tikz@lastysaved=\dimen349
+\tikz@lastmovetox=\dimen350
+\tikz@lastmovetoy=\dimen351
+\tikzleveldistance=\dimen352
+\tikzsiblingdistance=\dimen353
+\tikz@figbox=\box158
+\tikz@figbox@bg=\box159
+\tikz@tempbox=\box160
+\tikz@tempbox@bg=\box161
+\tikztreelevel=\count392
+\tikznumberofchildren=\count393
+\tikznumberofcurrentchild=\count394
+\tikz@fig@count=\count395
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulema
+trix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count396
+\pgfmatrixcurrentcolumn=\count397
+\pgf@matrix@numberofcolumns=\count398
+)
+\tikz@expandcount=\count399
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks43
+)
+\tcb@titlebox=\box162
+\tcb@upperbox=\box163
+\tcb@lowerbox=\box164
+\tcb@phantombox=\box165
+\c@tcbbreakpart=\count400
+\c@tcblayer=\count401
+\c@tcolorbox@number=\count402
+\l__tcobox_tmpa_box=\box166
+\l__tcobox_tmpa_dim=\dimen354
+\tcb@temp=\box167
+\tcb@temp=\box168
+\tcb@temp=\box169
+\tcb@temp=\box170
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code.
+tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.9.0'
+\c@tcbrastercolumn=\count403
+\c@tcbrasterrow=\count404
+\c@tcbrasternum=\count405
+\c@tcbraster=\count406
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.t
+ex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.9.0'
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.s
+ty
+Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill.
+image.code.tex
+File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
+\l__tikzfill_tmpa_dim=\dimen355
+\l__tikzfill_tmpb_dim=\dimen356
+\l__tikzfill_img_box=\box171
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw.
+code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.co
+de.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.9.0'
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box172
+\tcb@totalupperbox=\box173
+\tcb@totallowerbox=\box174
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.t
+ex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.9.0'
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.cod
+e.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.9.0'
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip85
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks44
+\ex@=\dimen357
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen358
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count407
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count408
+\leftroot@=\count409
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count410
+\DOTSCASE@=\count411
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box175
+\strutbox@=\box176
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen359
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count412
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count413
+\dotsspace@=\muskip17
+\c@parentequation=\count414
+\dspbrk@lvl=\count415
+\tag@help=\toks45
+\row@=\count416
+\column@=\count417
+\maxfields@=\count418
+\andhelp@=\toks46
+\eqnshift@=\dimen360
+\alignsep@=\dimen361
+\tagshift@=\dimen362
+\tagwidth@=\dimen363
+\totwidth@=\dimen364
+\lineht@=\dimen365
+\@envbody=\toks47
+\multlinegap=\skip86
+\multlinetaggap=\skip87
+\mathdisplay@stack=\toks48
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.code
+.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.9.0'
+\tcbfitdim=\dimen366
+\tcb@lowerfitdim=\dimen367
+\tcb@upperfitdim=\dimen368
+\tcb@cur@hbadness=\count419
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf8
+.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.9.0'
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.cod
+e.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.9.0'
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count420
+\lst@gtempboxa=\box177
+\lst@token=\toks49
+\lst@length=\count421
+\lst@currlwidth=\dimen369
+\lst@column=\count422
+\lst@pos=\count423
+\lst@lostspace=\dimen370
+\lst@width=\dimen371
+\lst@newlines=\count424
+\lst@lineno=\count425
+\lst@maxwidth=\dimen372
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count426
+\lst@skipnumbers=\count427
+\lst@framebox=\box178
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore
+.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.9.0'
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.c
+ode.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.9.0'
+)
+\c@tcblisting=\count428
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf8
+.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.s
+ty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+))))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.cod
+e.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.9.0'
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.cod
+e.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.9.0'
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.cod
+e.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.9.0'
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
+libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
+yfadings.code.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code.
+tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.9.0'
+))) (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks50
+\inpenc@posthook=\toks51
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count429
+\Gm@cntv=\count430
+\c@Gm@tempcnt=\count431
+\Gm@bindingoffset=\dimen373
+\Gm@wd@mp=\dimen374
+\Gm@odd@mp=\dimen375
+\Gm@even@mp=\dimen376
+\Gm@layoutwidth=\dimen377
+\Gm@layoutheight=\dimen378
+\Gm@layouthoffset=\dimen379
+\Gm@layoutvoffset=\dimen380
+\Gm@dimlist=\toks52
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage.sty
+Package: changepage 2026-09-15 v2.0b check page and change page layout
+\c@cp@cntr=\count432
+\cp@tempcnt=\count433
+LaTeX Info: Redefining \checkoddpage on input line 68.
+) (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip88
+\f@nch@offset@elh=\skip89
+\f@nch@offset@erh=\skip90
+\f@nch@offset@olh=\skip91
+\f@nch@offset@orh=\skip92
+\f@nch@offset@elf=\skip93
+\f@nch@offset@erf=\skip94
+\f@nch@offset@olf=\skip95
+\f@nch@offset@orf=\skip96
+\f@nch@height=\skip97
+\f@nch@footalignment=\skip98
+\f@nch@widthL=\skip99
+\f@nch@widthC=\skip100
+\f@nch@widthR=\skip101
+\@temptokenb=\toks53
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip102
+\bibsep=\skip103
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count434
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2026-09-12 v3.0c parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 64.
+\cftparskip=\skip104
+\cftbeforetoctitleskip=\skip105
+\cftaftertoctitleskip=\skip106
+\cftbeforepartskip=\skip107
+\cftpartnumwidth=\skip108
+\cftpartindent=\skip109
+\cftbeforechapskip=\skip110
+\cftchapindent=\skip111
+\cftchapnumwidth=\skip112
+\cftbeforesecskip=\skip113
+\cftsecindent=\skip114
+\cftsecnumwidth=\skip115
+\cftbeforesubsecskip=\skip116
+\cftsubsecindent=\skip117
+\cftsubsecnumwidth=\skip118
+\cftbeforesubsubsecskip=\skip119
+\cftsubsubsecindent=\skip120
+\cftsubsubsecnumwidth=\skip121
+\cftbeforeparaskip=\skip122
+\cftparaindent=\skip123
+\cftparanumwidth=\skip124
+\cftbeforesubparaskip=\skip125
+\cftsubparaindent=\skip126
+\cftsubparanumwidth=\skip127
+\cftbeforeloftitleskip=\skip128
+\cftafterloftitleskip=\skip129
+\cftbeforefigskip=\skip130
+\cftfigindent=\skip131
+\cftfignumwidth=\skip132
+\c@lofdepth=\count435
+\c@lotdepth=\count436
+\cftbeforelottitleskip=\skip133
+\cftafterlottitleskip=\skip134
+\cftbeforetabskip=\skip135
+\cfttabindent=\skip136
+\cfttabnumwidth=\skip137
+)
+\@indexfile=\write5
+\openout5 = `refman.idx'.
+
+
+Writing index file refman.idx
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/newunicodechar\newunicode
+char.sty
+Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefineke
+ys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitle
+string.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count437
+)
+\@linkdim=\dimen381
+\Hy@linkcounter=\count438
+\Hy@pagecounter=\count439
+ (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count440
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing ON on input line 4213.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+Package: backref 2025-06-21 v1.45 Bibliographical back referencing
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
+heck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecou
+nter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.s
+ty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+))
+\c@Hy@tempcnt=\count441
+ (C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen382
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count442
+\Field@Width=\dimen383
+\Fld@charsize=\dimen384
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing ON on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count443
+\c@Item=\count444
+\c@Hfootnote=\count445
+)
+Package hyperref Info: Driver: hpdftex.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count446
+\c@bookmark@seq@number=\count447
+\Hy@SectionHShift=\skip138
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 193.
+Package hyperref Info: Option `unicode' set `true' on input line 193.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen385
+\captionmargin=\dimen386
+\caption@leftmargin=\dimen387
+\caption@rightmargin=\dimen388
+\caption@width=\dimen389
+\caption@indent=\dimen390
+\caption@parindent=\dimen391
+\caption@hangindent=\dimen392
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count448
+\c@continuedfloat=\count449
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen393
+\caption@adjustwidth@linewidth=\dimen394
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+))
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
+Package: etoc 2026/05/04 v1.2e Completely customisable TOCs (JFB)
+\Etoc@toctoks=\toks54
+\c@etoc@tocid=\count450
+\etoc@framed@titlebox=\box179
+\etoc@framed@contentsbox=\box180
+)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 21
+5.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 215.
+
+(refman.aux)
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count451
+\scratchdimen=\dimen395
+\scratchbox=\box181
+\nofMPsegments=\count452
+\nofMParguments=\count453
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count454
+\MPscratchDim=\dimen396
+\MPnumerator=\count455
+\makeMPintoPDFobject=\count456
+\everyMPtoPDFconversion=\toks56
+)
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
+e.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count457
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-31.2056pt
+* \headheight=27.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package backref Info: ** backref set up for natbib ** on input line 215.
+Package hyperref Info: Link coloring ON on input line 215.
+(refman.out) (refman.out)
+\@outlinefile=\write6
+\openout6 = `refman.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\Etoc@tf=\read5
+Package hyperref Info: Option `pageanchor' set `false' on input line 223.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 223.
+
+Package hyperref Info: Option `unicode' set `true' on input line 223.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 228.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 230.
+ [1
+
+
+{C:/Users/oka/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/oka/Ap
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2
+
+]
+\tf@toc=\write7
+\openout7 = `refman.toc'.
+
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 236.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 236
+.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 236
+.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
+6.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 236.
+ <./confidential.png>
+<confidential.png, id=339, 253.69781pt x 57.21375pt>
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 236.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+ <./logo.png>
+<logo.png, id=342, 1003.75pt x 355.3275pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 236.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 236.
+ [1]
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 236.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 236.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [2]
+Package hyperref Info: Option `pageanchor' set `true' on input line 239.
+
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 18.66588pt on input line 241.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 241.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 241.
+(dirs.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 1.
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 23.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 23.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [1
+
+
+])
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 243.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 243.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [2]
+Chapter 2.
+(annotated.tex)
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 245.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 245.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [3
+
+]
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 245.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 245.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [4
+
+]
+Chapter 3.
+(dir_f84ff6d9186d906ddda7b6ff8484a4d7.tex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 4.
+
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 6
+.
+
+(C:\Users\oka\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 6.
+)
+(dir_6d9470917e457342ccdf5e2474b5a7d0.tex)
+(dir_06ad967e447d5187b38f85acd2788a86.tex)
+(dir_30dc24fe1145a12f33e44d8d274f41f4.tex
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 7.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 7.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [5]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 7.
+
+)
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 250.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 250.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [6]
+Chapter 4.
+(class_c_about_dlg.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 15.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 47.
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 47.
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 48.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 48.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [7
+
+]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 48.
+
+) (class_c_dialog_error.tex
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 68.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 68.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [8]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 68.
+
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 174.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 174.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+[9]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 174.
+
+) (class_cdialogtest_app.tex
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 62.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 62.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [10]) (class_cdialogtest_dlg.tex
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 11.
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 55.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 55.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [11]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 55.
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.99994pt on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 6.29996pt on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 65.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 65.
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 134.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 134.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+[12]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 134.
+
+
+Overfull \hbox (0.88168pt too wide) in paragraph at lines 170--170
+[]\T1/phv/m/sl/9 u[] 
+ []
+
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 206.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 206.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+[13]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 206.
+
+) (class_controller.tex
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 76.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 76.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [14]
+
+Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
+reak' or set page breaks manually on input line 76.
+
+)
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 258.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 258.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [15]
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 258.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 258.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [16
+
+] (refman.ind
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 1.
+File: confidential.png Graphic file (type png)
+<use confidential.png>
+Package pdftex.def Info: confidential.png  used on input line 103.
+(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 103.
+(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
+ [17
+
+
+]) (refman.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package rerunfilecheck Info: File `refman.out' has not changed.
+(rerunfilecheck)             Checksum: BC869E205046EE1321CAB9200BF4789B;12650.
+ ) 
+Here is how much of TeX's memory you used:
+ 37788 strings out of 467871
+ 764573 string characters out of 5419343
+ 1207075 words of memory out of 5000000
+ 65817 multiletter control sequences out of 15000+600000
+ 677809 words of font info for 95 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 113i,16n,122p,1506b,955s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{_controller_8h_source_l00023} has been referenced b
+ut does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_controller_8cpp_source} has been referenced but do
+es not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_controller_8cpp_source_l00003} has been referenced
+ but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_controller_8h_source_l00019} has been referenced b
+ut does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_controller_8h_source_l00015} has been referenced b
+ut does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_controller_8h_source} has been referenced but does
+ not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_controller_8h_source_l00009} has been referenced b
+ut does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8h_source_l00035} has been referen
+ced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8h_source_l00058} has been referen
+ced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00114} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00160} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00133} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00077} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00166} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00062} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00056} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8h_source} has been referenced but
+ does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8h_source_l00010} has been referen
+ced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_8cpp_source_l00042} has been reference
+d but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_8cpp_source} has been referenced but d
+oes not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_8cpp_source_l00024} has been reference
+d but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_8h_source} has been referenced but doe
+s not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_8h_source_l00018} has been referenced 
+but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8h_source_l00036} has been referenc
+ed but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8h_source_l00037} has been referenc
+ed but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00190} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00230} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00035} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00176} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00250} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00256} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00030} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00026} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source} has been referenced bu
+t does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8cpp_source_l00020} has been refere
+nced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8h_source} has been referenced but 
+does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{_c_dialog_error_8h_source_l00008} has been referenc
+ed but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00042} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00037} has been refer
+enced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source} has been referenced b
+ut does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{dialog__test_dlg_8cpp_source_l00019} has been refer
+enced but does not exist, replaced by a fixed one
+
+<C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/couri
+er/ucrb8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/couri
+er/ucrr8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/couri
+er/ucrro8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
+etic/uhvb8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
+vetic/uhvr8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/he
+lvetic/uhvro8a.pfb>
+Output written on refman.pdf (21 pages, 279379 bytes).
+PDF statistics:
+ 937 PDF objects out of 1000 (max. 8388607)
+ 191 named destinations out of 1000 (max. 500000)
+ 663 words of extra memory for PDF output out of 10000 (max. 10000000)
+

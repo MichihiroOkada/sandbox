@@ -1,0 +1,21 @@
+\doxysection{Controller.\+cpp}
+\hypertarget{_controller_8cpp_source}{}\label{_controller_8cpp_source}\index{Controller.cpp@{Controller.cpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#include\ "{}Controller.h"{}}}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00003}\doxymbox{\hyperlink{class_controller_abb4994fddb29383f4a18227df2b21825}{00003}}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{class_controller_abb4994fddb29383f4a18227df2b21825}{Controller::run}}()}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00004}00004\ \{}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00005}00005\ \ \ \ \ \textcolor{comment}{//\ }}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00006}00006\ \ \ \ \ \textcolor{keywordtype}{int}\ result\ =\ \doxymbox{\hyperlink{class_controller_a1a8d4f80a551e8eba37aaf10cc85144e}{m\_dialogError}}.\doxymbox{\hyperlink{class_c_dialog_error_a351064e4a7b34e0dfa3903d55b6b3182}{show}}();}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00008}00008\ \ \ \ \ \textcolor{keywordflow}{if}\ (result\ ==\ RESULT\_OK)\ \{}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00009}00009\ \ \ \ \ \ \ \ \ printf(\textcolor{stringliteral}{"{}OK\ Button\ pushed\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00010}00010\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00011}00011\ \ \ \ \ \textcolor{keywordflow}{else}\ \textcolor{keywordflow}{if}\ (result\ ==\ RESULT\_CANCEL)\ \{}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00012}00012\ \ \ \ \ \ \ \ \ printf(\textcolor{stringliteral}{"{}Cancel\ Button\ pushed\(\backslash\)n"{}});}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00013}00013\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00014}00014\ \ \ \ \ \textcolor{keywordflow}{return}\ 0;}
+\DoxyCodeLine{\Hypertarget{_controller_8cpp_source_l00015}00015\ \}}
+
+\end{DoxyCode}
