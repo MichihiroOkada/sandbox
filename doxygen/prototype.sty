@@ -10,6 +10,7 @@
 
 \renewenvironment{DoxyCompactItemize}
   {\begin{tcolorbox}[
+     enhanced,
      breakable,
      colback=blue!5,
      colframe=blue!30,
@@ -18,7 +19,9 @@
      left=2mm,
      right=2mm,
      top=1mm,
-     bottom=1mm
+     bottom=1mm,
+     drop shadow,
+     fontupper=\normalsize\ttfamily\bfseries
    ]
    \begin{DoxyOriginalCompactItemize}}
   {\end{DoxyOriginalCompactItemize}
@@ -42,6 +45,6 @@
     before skip=10pt,
     after skip=10pt,
     drop shadow,
-    fontupper=\Large\rmfamily\bfseries\itshape
+    fontupper=\large\rmfamily\bfseries
   ]}
   {\end{tcolorbox}}

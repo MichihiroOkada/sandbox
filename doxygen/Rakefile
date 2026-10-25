@@ -92,7 +92,9 @@ def wrap_prototype_blocks(text)
       return result
     end
 
-    result << text[start...cursor]
+    #result << text[start...cursor]
+    result << text[start...cursor].gsub("\\footnotesize", "")
+
     result << "\n\\end{DoxyPrototypeBox}"
     position = cursor
   end
