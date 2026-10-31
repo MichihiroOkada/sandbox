@@ -1,0 +1,172 @@
+= dialog_test API仕様書
+:doctype: book
+:lang: ja
+:toc:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+
+== 概要
+
+本書は `dialog_test` のソースから確認できるクラスと関数のAPIおよび処理をまとめる。実装コメントがない関数も、コード上で確認できる動作を記載した。
+
+このソースには、現在のVisual Studioプロジェクトでビルド対象になっている構成と、同じフォルダー内にある別のMFCダイアログアプリ構成が含まれる。プロジェクトファイル `dialog_test.vcxproj` が列挙しているコンパイル単位は `CDialogError.cpp`、`Controller.cpp`、`main.cpp` である。`dialog_test.cpp` と `dialog_testDlg.cpp` は同プロジェクトのコンパイル対象に含まれていないため、後半で参考情報として分けて記載する。
+
+== 実行時の構成
+
+. `main()` がMFCを初期化する。
+. `Controller::run()` が `CDialogError` をモーダル表示する。
+. ダイアログのOKまたはCancel操作を `RESULT_OK` / `RESULT_CANCEL` として受け取り、結果に応じたメッセージを標準出力へ出す。
+
+== 定数
+
+=== `RESULT_OK`
+
+`Controller.h` で定義される列挙値 `100`。エラーダイアログでOKボタンが押されたことを表す。
+
+=== `RESULT_CANCEL`
+
+`Controller.h` で定義される列挙値 `101`。エラーダイアログでCancelボタンが押されたことを表す。
+
+== クラスAPI
+
+=== `Controller`
+
+`CDialogError` を所有し、ダイアログ処理を開始する制御クラス。
+
+==== 公開メンバー
+
+[cols="1,2,3",options="header"]
+|===
+|宣言 |説明 |処理・戻り値
+|`Controller()` |コンストラクター |メンバー `m_dialogError` を既定構築する。
+|`~Controller()` |デストラクター |特別な処理は行わない。メンバーは通常のC++破棄処理で破棄される。
+|`int run()` |ダイアログを実行する |`m_dialogError.show()` を呼ぶ。結果が `RESULT_OK` なら `OK Button pushed`、`RESULT_CANCEL` なら `Cancel Button pushed` を標準出力へ出す。常に `0` を返す。
+|===
+
+==== 非公開メンバー
+
+[cols="1,2,3",options="header"]
+|===
+|宣言 |説明 |補足
+|`CDialogError m_dialogError` |エラーダイアログのインスタンス |`Controller` が所有する。
+|===
+
+=== `CDialogError`
+
+`CDialogEx` を継承するモーダルダイアログ。画面サイズに合わせてウィンドウとボタンを配置し、画像を描画する。
+
+==== 公開メンバー
+
+[cols="1,2,3",options="header"]
+|===
+|宣言 |説明 |処理・戻り値
+|`CDialogError(CWnd* pParent = nullptr)` |コンストラクター |リソースID `IDD_DIALOG_TEST_ERROR` を使って基底クラスを初期化する。`pParent` は親ウィンドウで、省略時は `nullptr`。
+|`virtual ~CDialogError()` |デストラクター |追加の処理は行わない。
+|`int show()` |モーダル表示 |`DoModal()` の結果を整数で返す。戻り値は通常、ダイアログの終了コードであり、OK / Cancel はそれぞれ `RESULT_OK` / `RESULT_CANCEL`。
+|`BOOL OnInitDialog()` |ダイアログ初期化ハンドラー |タイトルバーを隠す。対象モニター情報の取得に成功した場合、モニター領域の内側10%を起点として幅・高さ80%の位置とサイズに設定する。OK / Cancel ボタンを右下に配置し、静的テキストを `OlympusLOGO` に設定する。ダイアログと子コントロールにメイリオ10ポイントのフォントを設定し、GDI+を初期化する。初期化後 `TRUE` を返す。
+|===
+
+==== 保護メンバー
+
+[cols="1,2,3",options="header"]
+|===
+|宣言 |説明 |処理・戻り値
+|`virtual void DoDataExchange(CDataExchange* pDX)` |ダイアログデータ交換 |`CDialogEx::DoDataExchange(pDX)` に委譲する。DDX/DDV用の個別バインドはない。
+|===
+
+==== 公開メンバー（メッセージハンドラー）
+
+[cols="1,2,3",options="header"]
+|===
+|宣言 |説明 |処理・戻り値
+|`afx_msg void OnPaint()` |描画ハンドラー |`./res/olympus.png` を読み込み、成功時はクライアント領域の座標 `(0, 40)` に `200 x 200` ピクセルで描画する。画像読み込みに失敗した場合は何も描画しない。
+|`virtual BOOL OnDestroy()` |破棄ハンドラー |基底クラスの `OnDestroy()` を呼び、GDI+トークンが有効ならGDI+を終了してトークンを0にする。その後 `TRUE` を返す。
+|`afx_msg void OnBnClickedOriginal()` |OKボタンの通知ハンドラー |`EndDialog(RESULT_OK)` でダイアログを閉じる。
+|`afx_msg void OnBnClickedCancelOriginal()` |Cancelボタンの通知ハンドラー |`EndDialog(RESULT_CANCEL)` でダイアログを閉じる。
+|===
+
+==== 非公開メンバー
+
+[cols="1,2",options="header"]
+|===
+|宣言 |説明
+|`ULONG_PTR m_gdiplusToken` |GDI+の初期化トークン。初期値は0。
+|`CFont m_font` |ダイアログおよび子コントロールに設定するフォント。
+|===
+
+==== リソース・実行上の前提
+
+* `IDD_DIALOG_TEST_ERROR` のダイアログリソースに、`IDOK_ORIGINAL`、`IDCANCEL_ORIGINAL`、`IDC_STATIC_TEXT_ORIGINAL` の各コントロールが存在すること。
+* GDI+画像 `res/olympus.png` は実行時のカレントディレクトリから `./res/olympus.png` で参照できること。ファイルが見つからない場合、ロゴ画像は表示されない。
+* `OnInitDialog()` はGDI+を初期化する。初期化結果は現在の実装では検査していない。
+
+==== 条件付きで無効な実装
+
+ソースの `#else` 側には `bool show(CWnd* pParent)` があるが、現在は `#if 1` が有効なためコンパイルされない。この実装はウィンドウを作成して `ShowWindow(SW_SHOW)` / `SetForegroundWindow()` を呼ぶモデルレス表示案であり、現在のビルドで利用可能なAPIではない。
+
+== エントリーポイント
+
+=== `int main(void)`
+
+`main.cpp` のアプリケーション開始関数。
+
+. `AfxWinInit()` でMFCを初期化する。
+. 初期化失敗時は `1` を返して終了する。
+. 成功時は `Controller` を生成して `run()` を呼び、最後に `0` を返す。
+
+== プロジェクトに含まれていないMFCダイアログ実装
+
+以下はソースフォルダーに存在するが、現在の `dialog_test.vcxproj` の `<ClCompile>` 項目には含まれない。したがって、現在のプロジェクト構成から生成される実行ファイルのAPIとしては扱わない。
+
+=== `CdialogtestDlg`
+
+`dialog_testDlg.h/.cpp` に定義された `CDialogEx` 派生クラス。
+
+[cols="1,2,3",options="header"]
+|===
+|関数 |可視性 |ソース上の処理
+|`CdialogtestDlg(CWnd* pParent = nullptr)` |public |`IDD_DIALOG_TEST_DIALOG` で基底クラスを初期化し、メインアイコンを取得する。
+|`DoDataExchange(CDataExchange* pDX)` |protected / virtual |基底クラスの `DoDataExchange` に委譲する。
+|`OnInitDialog()` |protected / virtual |システムメニューにAbout項目を追加し、大小アイコンを設定する。初期化成功として `TRUE` を返す。
+|`OnSysCommand(UINT nID, LPARAM lParam)` |protected / message handler |AboutコマンドならAboutダイアログをモーダル表示し、それ以外は基底クラスへ委譲する。
+|`OnPaint()` |protected / message handler |最小化中ならアイコンを中央に描画し、通常時は基底クラスに描画を委譲する。
+|`OnQueryDragIcon()` |protected / message handler |ドラッグ中に使うアイコンハンドルを返す。
+|`OnBnClickedButton1()` |public / message handler |`CDialogError::show()` を呼び出す。戻り値は現在の実装では使用しない。
+|===
+
+=== `CAboutDlg`
+
+`dialog_testDlg.cpp` 内だけで使われるファイル内クラス。Aboutダイアログのリソース `IDD_ABOUTBOX` を使用する。コンストラクターは基底クラスを初期化し、`DoDataExchange()` は基底クラスに委譲する。
+
+=== `CdialogtestApp`
+
+`dialog_test.h/.cpp` に定義された `CWinApp` 派生クラス。
+
+[cols="1,2,3",options="header"]
+|===
+|関数 |可視性 |ソース上の処理
+|`CdialogtestApp()` |public |再起動マネージャーのサポートフラグを設定する。
+|`InitInstance()` |public / virtual |共通コントロール、MFCコントロールコンテナー、ビジュアルマネージャーを初期化し、レジストリキーを設定する。`CdialogtestDlg` をモーダル表示する。シェルマネージャーを破棄し、アプリケーションのメッセージポンプを開始しないため `FALSE` を返す。
+|===
+
+== ファイル構成
+
+[cols="1,3",options="header"]
+|===
+|ファイル |役割
+|`main.cpp` |MFC初期化と `Controller` の起動。
+|`Controller.h/.cpp` |終了コード定義とダイアログ呼び出し制御。
+|`CDialogError.h/.cpp` |エラーダイアログ、配置、描画、終了処理。
+|`dialog_test.h/.cpp` |別構成のMFCアプリケーションクラス。現在のプロジェクトのコンパイル項目外。
+|`dialog_testDlg.h/.cpp` |別構成のメインダイアログとAboutダイアログ。現在のプロジェクトのコンパイル項目外。
+|`resource.h`、`dialogtest.rc` |ダイアログ、ボタン、アイコンなどのリソース定義。
+|`framework.h`、`pch.h`、`targetver.h` |MFC / Windows SDKの共通インクルードおよびプリコンパイル済みヘッダー設定。
+|===
+
+== 仕様上の注意
+
+* `Controller::run()` はダイアログの結果にかかわらず `0` を返す。呼び出し元では終了状態を区別できない。
+* `CDialogError::show()` はモーダル表示であり、ユーザーがダイアログを閉じるまで呼び出し元へ戻らない。
+* `CDialogError::OnPaint()` は実行時カレントディレクトリ基準の相対パスで画像を開く。
+* `CdialogtestApp` / `CdialogtestDlg` と `main()` / `Controller` は別の起動構成を表している。現行プロジェクトでは前者の `.cpp` ファイル群がコンパイル項目に含まれていない。
