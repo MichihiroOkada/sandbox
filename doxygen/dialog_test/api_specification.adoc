@@ -24,18 +24,39 @@
 ----
 @startuml
 title oka
+
 oka -> oka3 : test
-oka <-- oka3
+oka <- oka3
+
+oka -> oka3 : test2
+oka <- oka3
+
 @enduml
 ----
 
 include::test.pu[]
 
+[plantuml, test.pu, svg]
+----
+@startuml
+title oka3
+
+oka -> oka3 : test3
+oka <- oka3
+
+oka -> oka3 : test4
+oka <- oka3
+
+@enduml
+----
+
+
+
 == 定数
 
 === `RESULT_OK`
 
-`Controller.h` で定義される列挙値 `100`。エラーダイアログでOKボタンが押されたことを表す。
+`Controller.h` で定義される列挙値 `100`。エラーダイアログでOKボタンが押されたことを表す
 
 === `RESULT_CANCEL`
 
