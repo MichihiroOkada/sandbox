@@ -14,9 +14,22 @@
 
 == 実行時の構成
 
-. `main()` がMFCを初期化する。
+. `main()` ：MFCを初期化する。
 . `Controller::run()` が `CDialogError` をモーダル表示する。
 . ダイアログのOKまたはCancel操作を `RESULT_OK` / `RESULT_CANCEL` として受け取り、結果に応じたメッセージを標準出力へ出す。
+
+== 処理シーケンス
+
+[plantuml, test.pu, svg]
+----
+@startuml
+title oka
+oka -> oka3 : test
+oka <-- oka3
+@enduml
+----
+
+include::test.pu[]
 
 == 定数
 
@@ -26,7 +39,7 @@
 
 === `RESULT_CANCEL`
 
-`Controller.h` で定義される列挙値 `101`。エラーダイアログでCancelボタンが押されたことを表す。
+`Controller.h` で定義される列挙値 `101`。エラーダイアログでCancelボタンが押された場合に返却される。
 
 == クラスAPI
 
