@@ -1,103 +1,101 @@
 \begin{theindex}
 
   \item {\texorpdfstring{$\sim$}{\string~}CDialogError}
-    \subitem {CDialogError}, \hyperpage{8}
+    \subitem {CDialogError}, \hyperpage{4}
   \item {\texorpdfstring{$\sim$}{\string~}Controller}
-    \subitem {Controller}, \hyperpage{14}
+    \subitem {Controller}, \hyperpage{10}
 
   \indexspace
 
-  \item {CAboutDlg}, \hyperpage{7}
-    \subitem {CAboutDlg}, \hyperpage{7}
-    \subitem {DoDataExchange}, \hyperpage{7}
-  \item {CDialogError}, \hyperpage{8}
+  \item {CAboutDlg}, \hyperpage{3}
+    \subitem {CAboutDlg}, \hyperpage{3}
+    \subitem {DoDataExchange}, \hyperpage{3}
+  \item {CDialogError}, \hyperpage{4}
     \subitem {\texorpdfstring{$\sim$}{\string~}CDialogError}, 
-		\hyperpage{8}
-    \subitem {CDialogError}, \hyperpage{8}
-    \subitem {DoDataExchange}, \hyperpage{9}
-    \subitem {m\_font}, \hyperpage{9}
-    \subitem {m\_gdiplusToken}, \hyperpage{10}
-    \subitem {OnBnClickedCancelOriginal}, \hyperpage{9}
-    \subitem {OnBnClickedOriginal}, \hyperpage{9}
-    \subitem {OnDestroy}, \hyperpage{9}
-    \subitem {OnInitDialog}, \hyperpage{9}
-    \subitem {OnPaint}, \hyperpage{9}
-    \subitem {show}, \hyperpage{9}
-  \item {CdialogtestApp}, \hyperpage{10}
-    \subitem {CdialogtestApp}, \hyperpage{10}
-    \subitem {InitInstance}, \hyperpage{10}
-  \item {CdialogtestDlg}, \hyperpage{10}
-    \subitem {CdialogtestDlg}, \hyperpage{11}
-    \subitem {DoDataExchange}, \hyperpage{11}
-    \subitem {m\_dialogError}, \hyperpage{13}
-    \subitem {m\_hIcon}, \hyperpage{13}
-    \subitem {OnBnClickedButton1}, \hyperpage{12}
-    \subitem {OnInitDialog}, \hyperpage{12}
-    \subitem {OnPaint}, \hyperpage{12}
-    \subitem {OnQueryDragIcon}, \hyperpage{12}
-    \subitem {OnSysCommand}, \hyperpage{12}
-  \item {Controller}, \hyperpage{13}
+		\hyperpage{4}
+    \subitem {CDialogError}, \hyperpage{4}
+    \subitem {DoDataExchange}, \hyperpage{5}
+    \subitem {m\_font}, \hyperpage{5}
+    \subitem {m\_gdiplusToken}, \hyperpage{6}
+    \subitem {OnBnClickedCancelOriginal}, \hyperpage{5}
+    \subitem {OnBnClickedOriginal}, \hyperpage{5}
+    \subitem {OnDestroy}, \hyperpage{5}
+    \subitem {OnInitDialog}, \hyperpage{5}
+    \subitem {OnPaint}, \hyperpage{5}
+    \subitem {show}, \hyperpage{5}
+  \item {CdialogtestApp}, \hyperpage{6}
+    \subitem {CdialogtestApp}, \hyperpage{6}
+    \subitem {InitInstance}, \hyperpage{6}
+  \item {CdialogtestDlg}, \hyperpage{6}
+    \subitem {CdialogtestDlg}, \hyperpage{7}
+    \subitem {DoDataExchange}, \hyperpage{7}
+    \subitem {m\_dialogError}, \hyperpage{9}
+    \subitem {m\_hIcon}, \hyperpage{9}
+    \subitem {OnBnClickedButton1}, \hyperpage{8}
+    \subitem {OnInitDialog}, \hyperpage{8}
+    \subitem {OnPaint}, \hyperpage{8}
+    \subitem {OnQueryDragIcon}, \hyperpage{8}
+    \subitem {OnSysCommand}, \hyperpage{8}
+  \item {Controller}, \hyperpage{9}
     \subitem {\texorpdfstring{$\sim$}{\string~}Controller}, 
-		\hyperpage{14}
-    \subitem {Controller}, \hyperpage{14}
-    \subitem {m\_dialogError}, \hyperpage{14}
-    \subitem {run}, \hyperpage{14}
+		\hyperpage{10}
+    \subitem {Controller}, \hyperpage{10}
+    \subitem {m\_dialogError}, \hyperpage{10}
+    \subitem {run}, \hyperpage{10}
 
   \indexspace
 
-  \item {dialog\_test Directory Reference}, \hyperpage{5}
   \item {DoDataExchange}
-    \subitem {CAboutDlg}, \hyperpage{7}
-    \subitem {CDialogError}, \hyperpage{9}
-    \subitem {CdialogtestDlg}, \hyperpage{11}
+    \subitem {CAboutDlg}, \hyperpage{3}
+    \subitem {CDialogError}, \hyperpage{5}
+    \subitem {CdialogtestDlg}, \hyperpage{7}
 
   \indexspace
 
   \item {InitInstance}
-    \subitem {CdialogtestApp}, \hyperpage{10}
+    \subitem {CdialogtestApp}, \hyperpage{6}
 
   \indexspace
 
   \item {m\_dialogError}
-    \subitem {CdialogtestDlg}, \hyperpage{13}
-    \subitem {Controller}, \hyperpage{14}
+    \subitem {CdialogtestDlg}, \hyperpage{9}
+    \subitem {Controller}, \hyperpage{10}
   \item {m\_font}
-    \subitem {CDialogError}, \hyperpage{9}
+    \subitem {CDialogError}, \hyperpage{5}
   \item {m\_gdiplusToken}
-    \subitem {CDialogError}, \hyperpage{10}
+    \subitem {CDialogError}, \hyperpage{6}
   \item {m\_hIcon}
-    \subitem {CdialogtestDlg}, \hyperpage{13}
-  \item {mfc\_trial Directory Reference}, \hyperpage{5}
+    \subitem {CdialogtestDlg}, \hyperpage{9}
 
   \indexspace
 
   \item {OnBnClickedButton1}
-    \subitem {CdialogtestDlg}, \hyperpage{12}
+    \subitem {CdialogtestDlg}, \hyperpage{8}
   \item {OnBnClickedCancelOriginal}
-    \subitem {CDialogError}, \hyperpage{9}
+    \subitem {CDialogError}, \hyperpage{5}
   \item {OnBnClickedOriginal}
-    \subitem {CDialogError}, \hyperpage{9}
+    \subitem {CDialogError}, \hyperpage{5}
   \item {OnDestroy}
-    \subitem {CDialogError}, \hyperpage{9}
+    \subitem {CDialogError}, \hyperpage{5}
   \item {OnInitDialog}
-    \subitem {CDialogError}, \hyperpage{9}
-    \subitem {CdialogtestDlg}, \hyperpage{12}
+    \subitem {CDialogError}, \hyperpage{5}
+    \subitem {CdialogtestDlg}, \hyperpage{8}
   \item {OnPaint}
-    \subitem {CDialogError}, \hyperpage{9}
-    \subitem {CdialogtestDlg}, \hyperpage{12}
+    \subitem {CDialogError}, \hyperpage{5}
+    \subitem {CdialogtestDlg}, \hyperpage{8}
   \item {OnQueryDragIcon}
-    \subitem {CdialogtestDlg}, \hyperpage{12}
+    \subitem {CdialogtestDlg}, \hyperpage{8}
   \item {OnSysCommand}
-    \subitem {CdialogtestDlg}, \hyperpage{12}
+    \subitem {CdialogtestDlg}, \hyperpage{8}
 
   \indexspace
 
   \item {run}
-    \subitem {Controller}, \hyperpage{14}
+    \subitem {Controller}, \hyperpage{10}
 
   \indexspace
 
   \item {show}
-    \subitem {CDialogError}, \hyperpage{9}
+    \subitem {CDialogError}, \hyperpage{5}
 
 \end{theindex}

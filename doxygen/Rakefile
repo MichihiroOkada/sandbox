@@ -35,6 +35,16 @@ def delete_hierarchical(output_dir)
   refman = Pathname("#{output_dir}/latex/refman.tex")
   tex = refman.read(encoding: "UTF-8")
 
+  tex.sub!(
+    /^[ \t]*\\chapter\{Directory Hierarchy\}\r?\n[ \t]*\\input\{dirs\}\r?\n/,
+    ""
+  )
+
+  tex.sub!(
+    /^[ \t]*\\chapter\{Directory Documentation\}\r?\n(?:[ \t]*\\input\{dir_[^}]+\}\r?\n)+/,
+    ""
+  )
+
   pattern = /^[ \t]*\\(?:chapter|doxysection)\{Hierarchical Index\}\r?\n\\input\{hierarchy\}\r?\n/
   tex.sub!(pattern, "")
   refman.write(tex, encoding: "UTF-8")

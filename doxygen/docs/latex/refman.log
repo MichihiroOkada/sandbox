@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.24)  25 OCT 2026 22:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.24)  31 OCT 2026 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,13 +1507,13 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 6.29996pt on input line 235.
  <./confidential.png>
-<confidential.png, id=336, 253.69781pt x 57.21375pt>
+<confidential.png, id=309, 253.69781pt x 57.21375pt>
 File: confidential.png Graphic file (type png)
 <use confidential.png>
 Package pdftex.def Info: confidential.png  used on input line 235.
 (pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
  <./logo.png>
-<logo.png, id=339, 1003.75pt x 355.3275pt>
+<logo.png, id=312, 1003.75pt x 355.3275pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 235.
@@ -1538,22 +1538,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 240.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 240.
-(dirs.tex
+(annotated.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
-File: confidential.png Graphic file (type png)
-<use confidential.png>
-Package pdftex.def Info: confidential.png  used on input line 23.
-(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 23.
-(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [2
-
-])
+)
 File: confidential.png Graphic file (type png)
 <use confidential.png>
 Package pdftex.def Info: confidential.png  used on input line 242.
@@ -1562,22 +1552,11 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 242.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [3]
-Chapter 2.
-(annotated.tex)
-File: confidential.png Graphic file (type png)
-<use confidential.png>
-Package pdftex.def Info: confidential.png  used on input line 244.
-(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 244.
-(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [4
+ [2
 
 ]
-Chapter 3.
-(dir_f84ff6d9186d906ddda7b6ff8484a4d7.tex
+Chapter 2.
+(class_c_about_dlg.tex
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 4.
 
 
@@ -1592,37 +1571,6 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 6.
-)
-(dir_6d9470917e457342ccdf5e2474b5a7d0.tex)
-(dir_06ad967e447d5187b38f85acd2788a86.tex)
-(dir_30dc24fe1145a12f33e44d8d274f41f4.tex
-File: confidential.png Graphic file (type png)
-<use confidential.png>
-Package pdftex.def Info: confidential.png  used on input line 7.
-(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 7.
-(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [5
-
-]
-
-Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 7.
-
-)
-File: confidential.png Graphic file (type png)
-<use confidential.png>
-Package pdftex.def Info: confidential.png  used on input line 249.
-(pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 249.
-(pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [6]
-Chapter 4.
-(class_c_about_dlg.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 15.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
@@ -1637,7 +1585,8 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 48.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [7
+
+[3
 
 ]
 
@@ -1653,7 +1602,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 68.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [8]
+ [4]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
 reak' or set page breaks manually on input line 68.
@@ -1666,7 +1615,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 174.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
-[9]
+[5]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
 reak' or set page breaks manually on input line 174.
@@ -1682,7 +1631,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 13.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [10]
+ [6]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
 reak' or set page breaks manually on input line 13.
@@ -1711,7 +1660,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 81.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
-[11]
+[7]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
 reak' or set page breaks manually on input line 81.
@@ -1729,7 +1678,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 170.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
-[12]) (class_controller.tex
+[8]) (class_controller.tex
 File: confidential.png Graphic file (type png)
 <use confidential.png>
 Package pdftex.def Info: confidential.png  used on input line 15.
@@ -1738,7 +1687,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 15.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [13]
+ [9]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
 reak' or set page breaks manually on input line 15.
@@ -1751,7 +1700,7 @@ File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 93.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
-[14]
+[10]
 
 Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
 reak' or set page breaks manually on input line 93.
@@ -1759,24 +1708,24 @@ reak' or set page breaks manually on input line 93.
 )
 File: confidential.png Graphic file (type png)
 <use confidential.png>
-Package pdftex.def Info: confidential.png  used on input line 257.
+Package pdftex.def Info: confidential.png  used on input line 250.
 (pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 257.
+Package pdftex.def Info: logo.png  used on input line 250.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [15] (refman.ind
+ [11] (refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
 File: confidential.png Graphic file (type png)
 <use confidential.png>
-Package pdftex.def Info: confidential.png  used on input line 103.
+Package pdftex.def Info: confidential.png  used on input line 101.
 (pdftex.def)             Requested size: 100.93149pt x 22.76219pt.
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 103.
+Package pdftex.def Info: logo.png  used on input line 101.
 (pdftex.def)             Requested size: 64.29645pt x 22.76219pt.
- [16
+ [12
 
 
 ]) (refman.aux)
@@ -1785,14 +1734,14 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: BC869E205046EE1321CAB9200BF4789B;12650.
+(rerunfilecheck)             Checksum: A5C7898798D899E20E632EDC073D2F84;11229.
  ) 
 Here is how much of TeX's memory you used:
- 37785 strings out of 467871
- 764493 string characters out of 5419343
- 1209103 words of memory out of 5000000
- 65818 multiletter control sequences out of 15000+600000
- 679545 words of font info for 96 fonts, out of 8000000 for 9000
+ 37707 strings out of 467871
+ 762045 string characters out of 5419343
+ 1208952 words of memory out of 5000000
+ 65776 multiletter control sequences out of 15000+600000
+ 678602 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,16n,122p,1506b,1087s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1950,15 +1899,14 @@ enced but does not exist, replaced by a fixed one
 <C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
 10.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/couri
-er/ucrb8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/couri
 er/ucrr8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/couri
 er/ucrro8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helv
 etic/uhvb8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvr8a.pfb><C:/Users/oka/AppData/Local/Programs/MiKTeX/fonts/type1/urw/he
 lvetic/uhvro8a.pfb>
-Output written on refman.pdf (18 pages, 275715 bytes).
+Output written on refman.pdf (14 pages, 249331 bytes).
 PDF statistics:
- 915 PDF objects out of 1000 (max. 8388607)
- 187 named destinations out of 1000 (max. 500000)
- 663 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 828 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
 

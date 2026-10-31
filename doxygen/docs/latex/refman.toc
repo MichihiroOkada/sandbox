@@ -1,63 +1,56 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
-\contentsline {chapter}{\numberline {1}Directory Hierarchy}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Directories}{2}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Class Index}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Class List}{4}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Directory Documentation}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}dialog\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}test Directory Reference}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}dialog\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}test Directory Reference}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}dialog\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}test Directory Reference}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}mfc\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}trial Directory Reference}{5}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}CAbout\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Dlg Class Reference}{7}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{7}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Constructor \& Destructor Documentation}{7}{subsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.2.1}CAboutDlg()}{7}{subsubsection.4.1.2.1}%
-\contentsline {subsection}{\numberline {4.1.3}Member Function Documentation}{7}{subsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.3.1}DoDataExchange()}{7}{subsubsection.4.1.3.1}%
-\contentsline {section}{\numberline {4.2}CDialog\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Error Class Reference}{8}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{8}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{8}{subsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.2.1}CDialogError()}{8}{subsubsection.4.2.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2.2}$\sim $CDialogError()}{8}{subsubsection.4.2.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Member Function Documentation}{9}{subsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.1}DoDataExchange()}{9}{subsubsection.4.2.3.1}%
-\contentsline {subsubsection}{\numberline {4.2.3.2}OnBnClickedCancelOriginal()}{9}{subsubsection.4.2.3.2}%
-\contentsline {subsubsection}{\numberline {4.2.3.3}OnBnClickedOriginal()}{9}{subsubsection.4.2.3.3}%
-\contentsline {subsubsection}{\numberline {4.2.3.4}OnDestroy()}{9}{subsubsection.4.2.3.4}%
-\contentsline {subsubsection}{\numberline {4.2.3.5}OnInitDialog()}{9}{subsubsection.4.2.3.5}%
-\contentsline {subsubsection}{\numberline {4.2.3.6}OnPaint()}{9}{subsubsection.4.2.3.6}%
-\contentsline {subsubsection}{\numberline {4.2.3.7}show()}{9}{subsubsection.4.2.3.7}%
-\contentsline {subsection}{\numberline {4.2.4}Member Data Documentation}{9}{subsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.4.1}m\_font}{9}{subsubsection.4.2.4.1}%
-\contentsline {subsubsection}{\numberline {4.2.4.2}m\_gdiplusToken}{10}{subsubsection.4.2.4.2}%
-\contentsline {section}{\numberline {4.3}Cdialogtest\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}App Class Reference}{10}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{10}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Constructor \& Destructor Documentation}{10}{subsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.2.1}CdialogtestApp()}{10}{subsubsection.4.3.2.1}%
-\contentsline {subsection}{\numberline {4.3.3}Member Function Documentation}{10}{subsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.3.1}InitInstance()}{10}{subsubsection.4.3.3.1}%
-\contentsline {section}{\numberline {4.4}Cdialogtest\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Dlg Class Reference}{10}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{11}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{11}{subsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.2.1}CdialogtestDlg()}{11}{subsubsection.4.4.2.1}%
-\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{11}{subsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.3.1}DoDataExchange()}{11}{subsubsection.4.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.4.3.2}OnBnClickedButton1()}{12}{subsubsection.4.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.4.3.3}OnInitDialog()}{12}{subsubsection.4.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.4.3.4}OnPaint()}{12}{subsubsection.4.4.3.4}%
-\contentsline {subsubsection}{\numberline {4.4.3.5}OnQueryDragIcon()}{12}{subsubsection.4.4.3.5}%
-\contentsline {subsubsection}{\numberline {4.4.3.6}OnSysCommand()}{13}{subsubsection.4.4.3.6}%
-\contentsline {subsection}{\numberline {4.4.4}Member Data Documentation}{13}{subsection.4.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.4.1}m\_dialogError}{13}{subsubsection.4.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.4.2}m\_hIcon}{13}{subsubsection.4.4.4.2}%
-\contentsline {section}{\numberline {4.5}Controller Class Reference}{13}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{14}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Constructor \& Destructor Documentation}{14}{subsection.4.5.2}%
-\contentsline {subsubsection}{\numberline {4.5.2.1}Controller()}{14}{subsubsection.4.5.2.1}%
-\contentsline {subsubsection}{\numberline {4.5.2.2}$\sim $Controller()}{14}{subsubsection.4.5.2.2}%
-\contentsline {subsection}{\numberline {4.5.3}Member Function Documentation}{14}{subsection.4.5.3}%
-\contentsline {subsubsection}{\numberline {4.5.3.1}run()}{14}{subsubsection.4.5.3.1}%
-\contentsline {subsection}{\numberline {4.5.4}Member Data Documentation}{14}{subsection.4.5.4}%
-\contentsline {subsubsection}{\numberline {4.5.4.1}m\_dialogError}{14}{subsubsection.4.5.4.1}%
-\contentsline {chapter}{Index}{16}{section*.17}%
+\contentsline {chapter}{\numberline {1}Class Index}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class List}{2}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Documentation}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}CAbout\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Dlg Class Reference}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Constructor \& Destructor Documentation}{3}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}CAboutDlg()}{3}{subsubsection.2.1.2.1}%
+\contentsline {subsection}{\numberline {2.1.3}Member Function Documentation}{3}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}DoDataExchange()}{3}{subsubsection.2.1.3.1}%
+\contentsline {section}{\numberline {2.2}CDialog\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Error Class Reference}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Constructor \& Destructor Documentation}{4}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}CDialogError()}{4}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}$\sim $CDialogError()}{4}{subsubsection.2.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Member Function Documentation}{5}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}DoDataExchange()}{5}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}OnBnClickedCancelOriginal()}{5}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}OnBnClickedOriginal()}{5}{subsubsection.2.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.4}OnDestroy()}{5}{subsubsection.2.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.2.3.5}OnInitDialog()}{5}{subsubsection.2.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.2.3.6}OnPaint()}{5}{subsubsection.2.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.2.3.7}show()}{5}{subsubsection.2.2.3.7}%
+\contentsline {subsection}{\numberline {2.2.4}Member Data Documentation}{5}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}m\_font}{5}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}m\_gdiplusToken}{6}{subsubsection.2.2.4.2}%
+\contentsline {section}{\numberline {2.3}Cdialogtest\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}App Class Reference}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Detailed Description}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Constructor \& Destructor Documentation}{6}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}CdialogtestApp()}{6}{subsubsection.2.3.2.1}%
+\contentsline {subsection}{\numberline {2.3.3}Member Function Documentation}{6}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}InitInstance()}{6}{subsubsection.2.3.3.1}%
+\contentsline {section}{\numberline {2.4}Cdialogtest\discretionary {\mbox {\scriptsize $\DOTSB \leftarrow \joinrel \rhook $}}{}{}Dlg Class Reference}{6}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Detailed Description}{7}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Constructor \& Destructor Documentation}{7}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}CdialogtestDlg()}{7}{subsubsection.2.4.2.1}%
+\contentsline {subsection}{\numberline {2.4.3}Member Function Documentation}{7}{subsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.3.1}DoDataExchange()}{7}{subsubsection.2.4.3.1}%
+\contentsline {subsubsection}{\numberline {2.4.3.2}OnBnClickedButton1()}{8}{subsubsection.2.4.3.2}%
+\contentsline {subsubsection}{\numberline {2.4.3.3}OnInitDialog()}{8}{subsubsection.2.4.3.3}%
+\contentsline {subsubsection}{\numberline {2.4.3.4}OnPaint()}{8}{subsubsection.2.4.3.4}%
+\contentsline {subsubsection}{\numberline {2.4.3.5}OnQueryDragIcon()}{8}{subsubsection.2.4.3.5}%
+\contentsline {subsubsection}{\numberline {2.4.3.6}OnSysCommand()}{9}{subsubsection.2.4.3.6}%
+\contentsline {subsection}{\numberline {2.4.4}Member Data Documentation}{9}{subsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.4.1}m\_dialogError}{9}{subsubsection.2.4.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.4.2}m\_hIcon}{9}{subsubsection.2.4.4.2}%
+\contentsline {section}{\numberline {2.5}Controller Class Reference}{9}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{10}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Constructor \& Destructor Documentation}{10}{subsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.2.1}Controller()}{10}{subsubsection.2.5.2.1}%
+\contentsline {subsubsection}{\numberline {2.5.2.2}$\sim $Controller()}{10}{subsubsection.2.5.2.2}%
+\contentsline {subsection}{\numberline {2.5.3}Member Function Documentation}{10}{subsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.3.1}run()}{10}{subsubsection.2.5.3.1}%
+\contentsline {subsection}{\numberline {2.5.4}Member Data Documentation}{10}{subsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.4.1}m\_dialogError}{10}{subsubsection.2.5.4.1}%
+\contentsline {chapter}{Index}{12}{section*.13}%

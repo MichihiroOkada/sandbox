@@ -64,4 +64,5 @@ LATEX_BATCHMODE         = NON_STOP
 CLASS_DIAGRAMS          = NO
 CLASS_GRAPH             = NO
 SHOW_FILES              = NO
+SHOW_DIRECTORIES        = NO
 LATEX_EXTRA_STYLESHEET  = prototype.sty
